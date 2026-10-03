@@ -1,0 +1,4611 @@
+{
+    "chunks": [
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 0,
+            "start": 0.0,
+            "end": 5.6000000000000005,
+            "text": " In today's video, we will learn how audio, video and media elements are used in HTML."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 1,
+            "start": 5.6000000000000005,
+            "end": 10.6,
+            "text": " We saw in our very first video that we can embed videos in HTML."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 2,
+            "start": 10.6,
+            "end": 13.4,
+            "text": " Today I will tell you how the video is auto-played,"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 3,
+            "start": 13.4,
+            "end": 19.900000000000002,
+            "text": " how to keep a muted video and how you can enable and disable the video controls."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 4,
+            "start": 19.900000000000002,
+            "end": 22.6,
+            "text": " Along with that, we will also see very closely about audio,"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 5,
+            "start": 22.6,
+            "end": 25.6,
+            "text": " how media can be shown in an overall page."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 6,
+            "start": 25.6,
+            "end": 28.6,
+            "text": " So do like this video and stay in this video"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 7,
+            "start": 28.6,
+            "end": 32.6,
+            "text": " because the examples I have used for video tags are very amazing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 8,
+            "start": 32.6,
+            "end": 34.0,
+            "text": " Let's go to the video screen."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 9,
+            "start": 34.0,
+            "end": 35.2,
+            "text": " Let's roll the intro."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 10,
+            "start": 35.2,
+            "end": 44.2,
+            "text": " Intro"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 11,
+            "start": 44.2,
+            "end": 47.2,
+            "text": " Friends, this time I have made a folder named video10"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 12,
+            "start": 47.2,
+            "end": 51.6,
+            "text": " and I will not waste your time by opening open with code by right-clicking and shifting."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 13,
+            "start": 51.6,
+            "end": 53.8,
+            "text": " In fact, I will make it in index.html."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 14,
+            "start": 53.8,
+            "end": 56.8,
+            "text": " And the topic of today's video is video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 15,
+            "start": 56.8,
+            "end": 62.4,
+            "text": " How to play a video, how to put a video in an HTML file,"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 16,
+            "start": 62.4,
+            "end": 66.0,
+            "text": " how to put audio, how to put media."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 17,
+            "start": 66.0,
+            "end": 68.6,
+            "text": " So adding a video is very straightforward."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 18,
+            "start": 68.6,
+            "end": 72.0,
+            "text": " I will copy it here, which is our video tag."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 19,
+            "start": 72.0,
+            "end": 75.6,
+            "text": " It has an src attribute and it has some other attributes"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 20,
+            "start": 75.6,
+            "end": 77.2,
+            "text": " which I will discuss with you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 21,
+            "start": 77.2,
+            "end": 80.6,
+            "text": " But first of all, I want to tell you here that video src is equal to"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 22,
+            "start": 80.6,
+            "end": 81.8,
+            "text": " you will write here like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 23,
+            "start": 81.8,
+            "end": 84.6,
+            "text": " So if you have video.mp4, it will play."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 24,
+            "start": 84.6,
+            "end": 85.8,
+            "text": " I have video.mp4."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 25,
+            "start": 85.8,
+            "end": 86.8,
+            "text": " So let's see here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 26,
+            "start": 86.8,
+            "end": 90.8,
+            "text": " I have put it here with control and I will click here and preview it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 27,
+            "start": 90.8,
+            "end": 92.8,
+            "text": " And you can see here that this video has come."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 28,
+            "start": 92.8,
+            "end": 95.8,
+            "text": " Okay, now it's a very big video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 29,
+            "start": 95.8,
+            "end": 96.8,
+            "text": " So what can I do?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 30,
+            "start": 96.8,
+            "end": 97.8,
+            "text": " I can give its width."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 31,
+            "start": 97.8,
+            "end": 101.8,
+            "text": " So I can say here width is equal to 555 pixels."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 32,
+            "start": 101.8,
+            "end": 105.8,
+            "text": " And as soon as I do 555 pixels, in fact, I don't need to write px."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 33,
+            "start": 105.8,
+            "end": 106.8,
+            "text": " I will only do 555."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 34,
+            "start": 106.8,
+            "end": 108.8,
+            "text": " Like we don't need to write px in the image."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 35,
+            "start": 108.8,
+            "end": 111.8,
+            "text": " Here too we will not need to write px."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 36,
+            "start": 111.8,
+            "end": 114.4,
+            "text": " So as soon as I did width is equal to 555,"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 37,
+            "start": 114.4,
+            "end": 115.4,
+            "text": " in fact, I do one thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 38,
+            "start": 115.4,
+            "end": 118.4,
+            "text": " I do height is equal to 555 so that it becomes smaller."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 39,
+            "start": 118.4,
+            "end": 120.4,
+            "text": " In fact, I make it smaller."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 40,
+            "start": 120.4,
+            "end": 121.4,
+            "text": " I make it 255."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 41,
+            "start": 121.4,
+            "end": 122.4,
+            "text": " And you see it came here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 42,
+            "start": 122.4,
+            "end": 125.4,
+            "text": " Okay, now I play it because I have put control."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 43,
+            "start": 125.4,
+            "end": 126.4,
+            "text": " I can play it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 44,
+            "start": 126.4,
+            "end": 127.4,
+            "text": " What did you say?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 45,
+            "start": 127.4,
+            "end": 128.4,
+            "text": " What name did you say?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 46,
+            "start": 128.4,
+            "end": 130.4,
+            "text": " Where did you go in the US?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 47,
+            "start": 130.4,
+            "end": 132.4,
+            "text": " I have gone to many places in the US."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 48,
+            "start": 132.4,
+            "end": 133.4,
+            "text": " Tell me the name."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 49,
+            "start": 133.4,
+            "end": 138.4,
+            "text": " So what is it that you can play the video like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 50,
+            "start": 138.4,
+            "end": 140.4,
+            "text": " Now here are some attributes of the video tag."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 51,
+            "start": 140.4,
+            "end": 142.4,
+            "text": " See, it is very simple to use the video tag."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 52,
+            "start": 142.4,
+            "end": 143.4,
+            "text": " You should have a video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 53,
+            "start": 143.4,
+            "end": 144.4,
+            "text": " You have given the path of the video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 54,
+            "start": 144.4,
+            "end": 146.4,
+            "text": " After that you have given the controls."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 55,
+            "start": 146.4,
+            "end": 147.4,
+            "text": " So these controls will come to you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 56,
+            "start": 147.4,
+            "end": 148.4,
+            "text": " You can download it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 57,
+            "start": 148.4,
+            "end": 149.4,
+            "text": " You can do full screen."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 58,
+            "start": 149.4,
+            "end": 150.4,
+            "text": " You can do mute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 59,
+            "start": 150.4,
+            "end": 152.4,
+            "text": " You can do picture in picture."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 60,
+            "start": 152.4,
+            "end": 154.4,
+            "text": " All this is automatically provided by your browser."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 61,
+            "start": 154.4,
+            "end": 156.4,
+            "text": " But let me tell you about some attributes."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 62,
+            "start": 156.4,
+            "end": 157.4,
+            "text": " The first attribute is src."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 63,
+            "start": 157.4,
+            "end": 159.4,
+            "text": " So you know that put the video here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 64,
+            "start": 159.4,
+            "end": 161.4,
+            "text": " The name of the video file is src."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 65,
+            "start": 161.4,
+            "end": 164.4,
+            "text": " This video file can also come from the external URL."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 66,
+            "start": 164.4,
+            "end": 168.4,
+            "text": " You understand that if I have uploaded a video on Amazon S3 or somewhere else."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 67,
+            "start": 168.4,
+            "end": 170.4,
+            "text": " So I can also put the URL there."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 68,
+            "start": 170.4,
+            "end": 172.4,
+            "text": " It is not necessary that the file is in your computer."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 69,
+            "start": 172.4,
+            "end": 174.4,
+            "text": " It can be on your server."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 70,
+            "start": 174.4,
+            "end": 175.4,
+            "text": " It can also come from the third party."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 71,
+            "start": 175.4,
+            "end": 177.4,
+            "text": " Now what does the controls do?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 72,
+            "start": 177.4,
+            "end": 179.4,
+            "text": " Adds video controls like play, pause and volume."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 73,
+            "start": 179.4,
+            "end": 182.4,
+            "text": " Which we saw here in the video of Bhupendra Jogi."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 74,
+            "start": 182.4,
+            "end": 185.4,
+            "text": " That you are getting to see the controls here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 75,
+            "start": 185.4,
+            "end": 187.4,
+            "text": " Now what is this thing?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 76,
+            "start": 187.4,
+            "end": 190.4,
+            "text": " The browser automatically sees what the control ads will be in your video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 77,
+            "start": 190.4,
+            "end": 191.4,
+            "text": " What will not be."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 78,
+            "start": 191.4,
+            "end": 193.4,
+            "text": " Then see what will autoplay do?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 79,
+            "start": 193.4,
+            "end": 195.4,
+            "text": " It will automatically play as soon as the page is loaded."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 80,
+            "start": 195.4,
+            "end": 197.4,
+            "text": " So if I put autoplay here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 81,
+            "start": 197.4,
+            "end": 198.4,
+            "text": " Suppose I put autoplay here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 82,
+            "start": 198.4,
+            "end": 199.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 83,
+            "start": 199.4,
+            "end": 202.4,
+            "text": " See what is happening here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 84,
+            "start": 202.4,
+            "end": 205.4,
+            "text": " So you can see that it is autoplay here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 85,
+            "start": 205.4,
+            "end": 207.4,
+            "text": " So I will remove autoplay from here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 86,
+            "start": 207.4,
+            "end": 210.4,
+            "text": " And our next attribute is loop."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 87,
+            "start": 210.4,
+            "end": 215.4,
+            "text": " That is, once our video is played, it will loop."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 88,
+            "start": 215.4,
+            "end": 217.4,
+            "text": " Like I show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 89,
+            "start": 220.4,
+            "end": 221.4,
+            "text": " So it started again."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 90,
+            "start": 221.4,
+            "end": 224.4,
+            "text": " Once I finished it, it started again."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 91,
+            "start": 224.4,
+            "end": 227.4,
+            "text": " So this loop works like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 92,
+            "start": 227.4,
+            "end": 228.4,
+            "text": " The next attribute is muted."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 93,
+            "start": 228.4,
+            "end": 230.4,
+            "text": " Muted mutes the video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 94,
+            "start": 230.4,
+            "end": 232.4,
+            "text": " So if I write here muted."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 95,
+            "start": 232.4,
+            "end": 234.4,
+            "text": " Sometimes we want the video to be muted."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 96,
+            "start": 234.4,
+            "end": 237.4,
+            "text": " In fact, when I add videos here on codewithhari.com."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 97,
+            "start": 237.4,
+            "end": 240.4,
+            "text": " And I demonstrate something like downloading VS Code or something."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 98,
+            "start": 240.4,
+            "end": 242.4,
+            "text": " So I use the muted attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 99,
+            "start": 242.4,
+            "end": 244.4,
+            "text": " Because I don't want when I record a video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 100,
+            "start": 244.4,
+            "end": 246.4,
+            "text": " If there is any background noise, you can hear it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 101,
+            "start": 246.4,
+            "end": 248.4,
+            "text": " For example, I want to show you that this is the element."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 102,
+            "start": 248.4,
+            "end": 250.4,
+            "text": " So I will make a video by scrolling like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 103,
+            "start": 250.4,
+            "end": 251.4,
+            "text": " I will highlight it like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 104,
+            "start": 251.4,
+            "end": 252.4,
+            "text": " So I don't need audio in it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 105,
+            "start": 252.4,
+            "end": 254.4,
+            "text": " So I mute it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 106,
+            "start": 254.4,
+            "end": 257.4,
+            "text": " So you can use the muted attribute in your website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 107,
+            "start": 257.4,
+            "end": 258.4,
+            "text": " Then the poster."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 108,
+            "start": 258.4,
+            "end": 259.4,
+            "text": " The poster is very important."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 109,
+            "start": 259.4,
+            "end": 261.4,
+            "text": " So I have an image here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 110,
+            "start": 261.4,
+            "end": 263.4,
+            "text": " Download.jpg."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 111,
+            "start": 263.4,
+            "end": 265.4,
+            "text": " If I write here, poster is equal to."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 112,
+            "start": 265.4,
+            "end": 268.4,
+            "text": " And I write download.jpg."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 113,
+            "start": 268.4,
+            "end": 270.4,
+            "text": " So you see, it will look something like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 114,
+            "start": 270.4,
+            "end": 271.4,
+            "text": " This is how the poster looks."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 115,
+            "start": 271.4,
+            "end": 272.4,
+            "text": " Then I will play."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 116,
+            "start": 272.4,
+            "end": 273.4,
+            "text": " So the video will play."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 117,
+            "start": 273.4,
+            "end": 274.4,
+            "text": " So in a way, the thumbnail."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 118,
+            "start": 274.4,
+            "end": 276.4,
+            "text": " You saw the thumbnail of the YouTube video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 119,
+            "start": 276.4,
+            "end": 277.4,
+            "text": " This is exactly the same."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 120,
+            "start": 277.4,
+            "end": 278.4,
+            "text": " This is the poster attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 121,
+            "start": 278.4,
+            "end": 280.4,
+            "text": " So you can use all these attributes."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 122,
+            "start": 280.4,
+            "end": 284.4,
+            "text": " You know that the width and height specify the dimension of the video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 123,
+            "start": 284.4,
+            "end": 286.4,
+            "text": " Like I added both width and height here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 124,
+            "start": 286.4,
+            "end": 287.4,
+            "text": " You saw."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 125,
+            "start": 287.4,
+            "end": 289.4,
+            "text": " So I hope you understood this thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 126,
+            "start": 289.4,
+            "end": 293.4,
+            "text": " Now the thing I want to tell you after this is audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 127,
+            "start": 293.4,
+            "end": 295.4,
+            "text": " So this is for all the attributes of your video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 128,
+            "start": 295.4,
+            "end": 296.4,
+            "text": " It is very straightforward."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 129,
+            "start": 296.4,
+            "end": 298.4,
+            "text": " I want you to make a website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 130,
+            "start": 298.4,
+            "end": 301.4,
+            "text": " Which I am going to give you at the end of this video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 131,
+            "start": 301.4,
+            "end": 302.4,
+            "text": " In quick quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 132,
+            "start": 302.4,
+            "end": 303.4,
+            "text": " So listen to the quick quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 133,
+            "start": 303.4,
+            "end": 305.4,
+            "text": " In fact, I will put the heading here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 134,
+            "start": 305.4,
+            "end": 306.4,
+            "text": " Quick quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 135,
+            "start": 306.4,
+            "end": 307.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 136,
+            "start": 307.4,
+            "end": 308.4,
+            "text": " So that I don't forget."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 137,
+            "start": 309.4,
+            "end": 310.4,
+            "text": " I will give you this now."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 138,
+            "start": 310.4,
+            "end": 312.4,
+            "text": " And this is going to be a very fun quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 139,
+            "start": 312.4,
+            "end": 313.4,
+            "text": " And everyone must solve it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 140,
+            "start": 313.4,
+            "end": 315.4,
+            "text": " But before that."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 141,
+            "start": 315.4,
+            "end": 318.4,
+            "text": " As soon as you write audio, src comes here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 142,
+            "start": 318.4,
+            "end": 320.4,
+            "text": " And I have to put src in sachin.mp3."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 143,
+            "start": 320.4,
+            "end": 322.4,
+            "text": " So as soon as I put sachin.mp3."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 144,
+            "start": 322.4,
+            "end": 323.4,
+            "text": " Now see here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 145,
+            "start": 323.4,
+            "end": 324.4,
+            "text": " I will reload it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 146,
+            "start": 324.4,
+            "end": 326.4,
+            "text": " And there is no audio here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 147,
+            "start": 326.4,
+            "end": 327.4,
+            "text": " Which is strange."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 148,
+            "start": 327.4,
+            "end": 329.4,
+            "text": " Let's see what the problem is here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 149,
+            "start": 329.4,
+            "end": 331.4,
+            "text": " I put src is equal to."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 150,
+            "start": 331.4,
+            "end": 332.4,
+            "text": " I have to write controls here too."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 151,
+            "start": 332.4,
+            "end": 335.4,
+            "text": " So if I don't write controls, I won't see the audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 152,
+            "start": 335.4,
+            "end": 336.4,
+            "text": " See now the audio has come."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 153,
+            "start": 336.4,
+            "end": 337.4,
+            "text": " I can see the controls here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 154,
+            "start": 337.4,
+            "end": 338.4,
+            "text": " I can also set its volume."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 155,
+            "start": 338.4,
+            "end": 340.4,
+            "text": " I play this audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 156,
+            "start": 340.4,
+            "end": 342.4,
+            "text": " Sachin, what is in sachin?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 157,
+            "start": 342.4,
+            "end": 343.4,
+            "text": " It's a bad sachin."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 158,
+            "start": 343.4,
+            "end": 344.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 159,
+            "start": 344.4,
+            "end": 345.4,
+            "text": " So this is our audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 160,
+            "start": 345.4,
+            "end": 346.4,
+            "text": " If I mute it and run it, it won't work."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 161,
+            "start": 346.4,
+            "end": 347.4,
+            "text": " And I can also increase it further."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 162,
+            "start": 347.4,
+            "end": 348.4,
+            "text": " It's a bad sachin."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 163,
+            "start": 348.4,
+            "end": 349.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 164,
+            "start": 349.4,
+            "end": 350.4,
+            "text": " You people have seen."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 165,
+            "start": 350.4,
+            "end": 351.4,
+            "text": " So this is audio named sachin.mp3."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 166,
+            "start": 351.4,
+            "end": 353.4,
+            "text": " Now what we will do."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 167,
+            "start": 353.4,
+            "end": 355.4,
+            "text": " That we will see some attributes of this audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 168,
+            "start": 355.4,
+            "end": 356.4,
+            "text": " You know src."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 169,
+            "start": 356.4,
+            "end": 358.4,
+            "text": " Source of the video file."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 170,
+            "start": 358.4,
+            "end": 359.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 171,
+            "start": 359.4,
+            "end": 361.4,
+            "text": " Then after this, you know the controls."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 172,
+            "start": 361.4,
+            "end": 362.4,
+            "text": " Play, pause and volume."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 173,
+            "start": 362.4,
+            "end": 363.4,
+            "text": " Which we just saw."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 174,
+            "start": 363.4,
+            "end": 364.4,
+            "text": " What will autoplay do?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 175,
+            "start": 364.4,
+            "end": 365.4,
+            "text": " It will automatically play it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 176,
+            "start": 365.4,
+            "end": 366.4,
+            "text": " If I have here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 177,
+            "start": 366.4,
+            "end": 367.4,
+            "text": " Autoplay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 178,
+            "start": 367.4,
+            "end": 368.4,
+            "text": " Sachin, what is in sachin?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 179,
+            "start": 368.4,
+            "end": 369.4,
+            "text": " It will automatically play it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 180,
+            "start": 369.4,
+            "end": 370.4,
+            "text": " It's a bad sachin."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 181,
+            "start": 370.4,
+            "end": 371.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 182,
+            "start": 371.4,
+            "end": 372.4,
+            "text": " So what does autoplay do?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 183,
+            "start": 372.4,
+            "end": 374.4,
+            "text": " It automatically plays our audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 184,
+            "start": 374.4,
+            "end": 375.4,
+            "text": " After this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 185,
+            "start": 375.4,
+            "end": 377.4,
+            "text": " The next attribute is loop."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 186,
+            "start": 377.4,
+            "end": 378.4,
+            "text": " What will loop do?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 187,
+            "start": 378.4,
+            "end": 379.4,
+            "text": " It will repeat it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 188,
+            "start": 379.4,
+            "end": 380.4,
+            "text": " If I want to loop it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 189,
+            "start": 380.4,
+            "end": 381.4,
+            "text": " So I have autoplayed it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 190,
+            "start": 381.4,
+            "end": 382.4,
+            "text": " Now I will loop it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 191,
+            "start": 382.4,
+            "end": 384.4,
+            "text": " Sachin, what is in sachin?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 192,
+            "start": 384.4,
+            "end": 385.4,
+            "text": " It's a bad sachin."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 193,
+            "start": 385.4,
+            "end": 386.4,
+            "text": " Once."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 194,
+            "start": 386.4,
+            "end": 387.4,
+            "text": " Sachin, what is in sachin?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 195,
+            "start": 387.4,
+            "end": 388.4,
+            "text": " Second time."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 196,
+            "start": 388.4,
+            "end": 389.4,
+            "text": " It's a bad sachin."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 197,
+            "start": 389.4,
+            "end": 390.4,
+            "text": " So you saw it was repeated."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 198,
+            "start": 390.4,
+            "end": 391.4,
+            "text": " Means it was played once."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 199,
+            "start": 391.4,
+            "end": 392.4,
+            "text": " Then it was played again."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 200,
+            "start": 392.4,
+            "end": 393.4,
+            "text": " Because it is looped."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 201,
+            "start": 393.4,
+            "end": 394.4,
+            "text": " So you saw this thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 202,
+            "start": 394.4,
+            "end": 395.4,
+            "text": " Sachin.mp3 looped."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 203,
+            "start": 395.4,
+            "end": 396.4,
+            "text": " Means it was played once."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 204,
+            "start": 396.4,
+            "end": 397.4,
+            "text": " Then it was played."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 205,
+            "start": 397.4,
+            "end": 398.4,
+            "text": " Then it was played."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 206,
+            "start": 398.4,
+            "end": 399.4,
+            "text": " Sachin, what is in sachin?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 207,
+            "start": 399.4,
+            "end": 400.4,
+            "text": " It was repeated."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 208,
+            "start": 400.4,
+            "end": 401.4,
+            "text": " Because this mp3."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 209,
+            "start": 401.4,
+            "end": 402.4,
+            "text": " Will be played again and again."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 210,
+            "start": 402.4,
+            "end": 403.4,
+            "text": " So there are many cases."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 211,
+            "start": 403.4,
+            "end": 404.4,
+            "text": " When you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 212,
+            "start": 404.4,
+            "end": 405.4,
+            "text": " This mp3 to be repeated."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 213,
+            "start": 405.4,
+            "end": 406.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 214,
+            "start": 406.4,
+            "end": 407.4,
+            "text": " So if you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 215,
+            "start": 407.4,
+            "end": 408.4,
+            "text": " Your mp3 to be repeated."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 216,
+            "start": 408.4,
+            "end": 409.4,
+            "text": " Then you can use it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 217,
+            "start": 409.4,
+            "end": 410.4,
+            "text": " Now after this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 218,
+            "start": 410.4,
+            "end": 411.4,
+            "text": " Muted."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 219,
+            "start": 411.4,
+            "end": 412.4,
+            "text": " What will it do?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 220,
+            "start": 412.4,
+            "end": 413.4,
+            "text": " It will mute the audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 221,
+            "start": 413.4,
+            "end": 414.4,
+            "text": " And definitely."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 222,
+            "start": 414.4,
+            "end": 415.4,
+            "text": " You will hear."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 223,
+            "start": 415.4,
+            "end": 416.4,
+            "text": " The sound."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 224,
+            "start": 416.4,
+            "end": 417.4,
+            "text": " It will be muted."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 225,
+            "start": 417.4,
+            "end": 418.4,
+            "text": " So you can hear."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 226,
+            "start": 418.4,
+            "end": 419.4,
+            "text": " The sound."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 227,
+            "start": 419.4,
+            "end": 420.4,
+            "text": " So you can hear."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 228,
+            "start": 420.4,
+            "end": 421.4,
+            "text": " So you can hear."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 229,
+            "start": 421.4,
+            "end": 422.4,
+            "text": " So you can hear."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 230,
+            "start": 422.4,
+            "end": 423.4,
+            "text": " And definitely."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 231,
+            "start": 423.4,
+            "end": 424.4,
+            "text": " You don't want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 232,
+            "start": 424.4,
+            "end": 425.4,
+            "text": " By default."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 233,
+            "start": 425.4,
+            "end": 426.4,
+            "text": " Your audio to be muted."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 234,
+            "start": 426.4,
+            "end": 427.4,
+            "text": " In most of the cases."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 235,
+            "start": 427.4,
+            "end": 428.4,
+            "text": " But."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 236,
+            "start": 428.4,
+            "end": 429.4,
+            "text": " Sometimes we want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 237,
+            "start": 429.4,
+            "end": 430.4,
+            "text": " That."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 238,
+            "start": 430.4,
+            "end": 431.4,
+            "text": " The audio is muted."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 239,
+            "start": 431.4,
+            "end": 432.4,
+            "text": " And we can say here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 240,
+            "start": 432.4,
+            "end": 433.4,
+            "text": " To the user."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 241,
+            "start": 433.4,
+            "end": 434.4,
+            "text": " Brother, whoever wants to hear."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 242,
+            "start": 434.4,
+            "end": 435.4,
+            "text": " Unmute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 243,
+            "start": 435.4,
+            "end": 436.4,
+            "text": " Sachin, what is it?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 244,
+            "start": 436.4,
+            "end": 437.4,
+            "text": " When do we do this?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 245,
+            "start": 437.4,
+            "end": 438.4,
+            "text": " Which are multiple audios."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 246,
+            "start": 438.4,
+            "end": 439.4,
+            "text": " You want to show 5-6 audios at once."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 247,
+            "start": 439.4,
+            "end": 440.4,
+            "text": " You can mute them."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 248,
+            "start": 440.4,
+            "end": 441.4,
+            "text": " Your user can play."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 249,
+            "start": 441.4,
+            "end": 442.4,
+            "text": " Unmute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 250,
+            "start": 442.4,
+            "end": 443.4,
+            "text": " And see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 251,
+            "start": 443.4,
+            "end": 444.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 252,
+            "start": 444.4,
+            "end": 445.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 253,
+            "start": 445.4,
+            "end": 446.4,
+            "text": " You have control in your hand."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 254,
+            "start": 446.4,
+            "end": 447.4,
+            "text": " If you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 255,
+            "start": 447.4,
+            "end": 448.4,
+            "text": " You can use this thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 256,
+            "start": 448.4,
+            "end": 449.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 257,
+            "start": 449.4,
+            "end": 450.4,
+            "text": " All in all."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 258,
+            "start": 450.4,
+            "end": 451.4,
+            "text": " This is the thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 259,
+            "start": 451.4,
+            "end": 452.4,
+            "text": " I hope you enjoyed it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 260,
+            "start": 452.4,
+            "end": 453.4,
+            "text": " Now preload."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 261,
+            "start": 453.4,
+            "end": 454.4,
+            "text": " The most confusing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 262,
+            "start": 454.4,
+            "end": 455.4,
+            "text": " Attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 263,
+            "start": 455.4,
+            "end": 456.4,
+            "text": " And that's why I have."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 264,
+            "start": 456.4,
+            "end": 457.4,
+            "text": " Explained it on codewithaddy.com."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 265,
+            "start": 457.4,
+            "end": 458.4,
+            "text": " That the preload attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 266,
+            "start": 458.4,
+            "end": 459.4,
+            "text": " It can have these values."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 267,
+            "start": 459.4,
+            "end": 460.4,
+            "text": " The first value can be none."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 268,
+            "start": 460.4,
+            "end": 461.4,
+            "text": " This is the default value."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 269,
+            "start": 461.4,
+            "end": 462.4,
+            "text": " It indicates."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 270,
+            "start": 462.4,
+            "end": 463.4,
+            "text": " That the browser should not."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 271,
+            "start": 463.4,
+            "end": 464.4,
+            "text": " Preload the audio at all."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 272,
+            "start": 464.4,
+            "end": 465.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 273,
+            "start": 465.4,
+            "end": 466.4,
+            "text": " Preload means."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 274,
+            "start": 466.4,
+            "end": 467.4,
+            "text": " If you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 275,
+            "start": 467.4,
+            "end": 468.4,
+            "text": " That the browser fetches the data."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 276,
+            "start": 468.4,
+            "end": 469.4,
+            "text": " Then you will use the preload attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 277,
+            "start": 469.4,
+            "end": 470.4,
+            "text": " Otherwise."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 278,
+            "start": 470.4,
+            "end": 471.4,
+            "text": " You will not use the preload attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 279,
+            "start": 471.4,
+            "end": 472.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 280,
+            "start": 472.4,
+            "end": 473.4,
+            "text": " Preload is equal to none."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 281,
+            "start": 473.4,
+            "end": 474.4,
+            "text": " Default value."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 282,
+            "start": 474.4,
+            "end": 475.4,
+            "text": " Preload is equal to metadata."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 283,
+            "start": 475.4,
+            "end": 476.4,
+            "text": " Means."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 284,
+            "start": 476.4,
+            "end": 477.4,
+            "text": " That the browser."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 285,
+            "start": 477.4,
+            "end": 478.4,
+            "text": " Will not fetch the data."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 286,
+            "start": 478.4,
+            "end": 479.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 287,
+            "start": 479.4,
+            "end": 480.4,
+            "text": " Preload is equal to metadata."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 288,
+            "start": 480.4,
+            "end": 481.4,
+            "text": " Means."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 289,
+            "start": 481.4,
+            "end": 482.4,
+            "text": " That the browser."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 290,
+            "start": 482.4,
+            "end": 483.4,
+            "text": " Only the metadata."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 291,
+            "start": 483.4,
+            "end": 484.4,
+            "text": " That is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 292,
+            "start": 484.4,
+            "end": 485.4,
+            "text": " The information about that audio file."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 293,
+            "start": 485.4,
+            "end": 486.4,
+            "text": " It will preload it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 294,
+            "start": 486.4,
+            "end": 487.4,
+            "text": " It will load it from the beginning."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 295,
+            "start": 487.4,
+            "end": 488.4,
+            "text": " And what will happen by doing auto."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 296,
+            "start": 488.4,
+            "end": 489.4,
+            "text": " That the browser."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 297,
+            "start": 489.4,
+            "end": 490.4,
+            "text": " Will preload the entire audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 298,
+            "start": 490.4,
+            "end": 491.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 299,
+            "start": 491.4,
+            "end": 492.4,
+            "text": " So preload is equal to auto."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 300,
+            "start": 492.4,
+            "end": 493.4,
+            "text": " If I do."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 301,
+            "start": 493.4,
+            "end": 494.4,
+            "text": " Then it will download."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 302,
+            "start": 494.4,
+            "end": 495.4,
+            "text": " And automatically."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 303,
+            "start": 495.4,
+            "end": 496.4,
+            "text": " Will be loaded."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 304,
+            "start": 496.4,
+            "end": 497.4,
+            "text": " So that whenever the user plays it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 305,
+            "start": 497.4,
+            "end": 498.4,
+            "text": " Then the audio is saved."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 306,
+            "start": 498.4,
+            "end": 499.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 307,
+            "start": 499.4,
+            "end": 500.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 308,
+            "start": 500.4,
+            "end": 501.4,
+            "text": " This is the work of the preload attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 309,
+            "start": 501.4,
+            "end": 502.4,
+            "text": " And in interviews."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 310,
+            "start": 502.4,
+            "end": 503.4,
+            "text": " This preload attribute is asked a lot."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 311,
+            "start": 503.4,
+            "end": 504.4,
+            "text": " So you should know."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 312,
+            "start": 504.4,
+            "end": 505.4,
+            "text": " That what is the preload attribute."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 313,
+            "start": 505.4,
+            "end": 506.4,
+            "text": " Before moving forward."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 314,
+            "start": 506.4,
+            "end": 507.4,
+            "text": " I want you to."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 315,
+            "start": 508.4,
+            "end": 509.4,
+            "text": " Share this playlist."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 316,
+            "start": 509.4,
+            "end": 510.4,
+            "text": " With your friends."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 317,
+            "start": 510.4,
+            "end": 511.4,
+            "text": " Because I am seeing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 318,
+            "start": 511.4,
+            "end": 512.4,
+            "text": " That the interest is declining a lot."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 319,
+            "start": 512.4,
+            "end": 513.4,
+            "text": " As we are moving forward in the videos."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 320,
+            "start": 513.4,
+            "end": 514.4,
+            "text": " My request to you is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 321,
+            "start": 514.4,
+            "end": 515.4,
+            "text": " That you like this video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 322,
+            "start": 515.4,
+            "end": 516.4,
+            "text": " And along with that."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 323,
+            "start": 516.4,
+            "end": 517.4,
+            "text": " As you are forking this repository."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 324,
+            "start": 517.4,
+            "end": 518.4,
+            "text": " You should also star it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 325,
+            "start": 518.4,
+            "end": 519.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 326,
+            "start": 519.4,
+            "end": 520.4,
+            "text": " Your star."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 327,
+            "start": 520.4,
+            "end": 521.4,
+            "text": " Your likes."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 328,
+            "start": 521.4,
+            "end": 522.4,
+            "text": " All this will help me a lot."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 329,
+            "start": 522.4,
+            "end": 523.4,
+            "text": " To bring such free courses."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 330,
+            "start": 523.4,
+            "end": 524.4,
+            "text": " So this was."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 331,
+            "start": 524.4,
+            "end": 525.4,
+            "text": " About audio and video tags."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 332,
+            "start": 525.4,
+            "end": 526.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 333,
+            "start": 526.4,
+            "end": 527.4,
+            "text": " I have told you all the attributes."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 334,
+            "start": 527.4,
+            "end": 528.4,
+            "text": " And you should definitely use it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 335,
+            "start": 528.4,
+            "end": 529.4,
+            "text": " I will give you all the images."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 336,
+            "start": 529.4,
+            "end": 530.4,
+            "text": " So that you can."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 337,
+            "start": 530.4,
+            "end": 531.4,
+            "text": " Understand it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 338,
+            "start": 531.4,
+            "end": 532.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 339,
+            "start": 532.4,
+            "end": 533.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 340,
+            "start": 533.4,
+            "end": 534.4,
+            "text": " I am signing off."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 341,
+            "start": 534.4,
+            "end": 535.4,
+            "text": " I am signing off."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 342,
+            "start": 535.4,
+            "end": 536.4,
+            "text": " I am signing off."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 343,
+            "start": 536.4,
+            "end": 537.4,
+            "text": " I will give you all the links."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 344,
+            "start": 537.4,
+            "end": 538.4,
+            "text": " So that you can."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 345,
+            "start": 538.4,
+            "end": 539.4,
+            "text": " Try out this thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 346,
+            "start": 539.4,
+            "end": 540.4,
+            "text": " Now many people were asking."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 347,
+            "start": 540.4,
+            "end": 541.4,
+            "text": " Can we use replit."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 348,
+            "start": 541.4,
+            "end": 542.4,
+            "text": " See in this course."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 349,
+            "start": 542.4,
+            "end": 543.4,
+            "text": " I have not used replit."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 350,
+            "start": 543.4,
+            "end": 544.4,
+            "text": " But replit.com is an amazing website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 351,
+            "start": 544.4,
+            "end": 545.4,
+            "text": " If you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 352,
+            "start": 545.4,
+            "end": 546.4,
+            "text": " If you want to use in your phone."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 353,
+            "start": 546.4,
+            "end": 547.4,
+            "text": " HTML."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 354,
+            "start": 547.4,
+            "end": 548.4,
+            "text": " If you want to run."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 355,
+            "start": 548.4,
+            "end": 549.4,
+            "text": " There is also a replit app."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 356,
+            "start": 549.4,
+            "end": 550.4,
+            "text": " For IOS."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 357,
+            "start": 550.4,
+            "end": 551.4,
+            "text": " There is also for Android."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 358,
+            "start": 551.4,
+            "end": 552.4,
+            "text": " So you can try this out."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 359,
+            "start": 552.4,
+            "end": 553.4,
+            "text": " Many people are asking."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 360,
+            "start": 553.4,
+            "end": 554.4,
+            "text": " How to do coding in the phone."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 361,
+            "start": 554.4,
+            "end": 555.4,
+            "text": " Replit."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 362,
+            "start": 555.4,
+            "end": 556.4,
+            "text": " But what I want now."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 363,
+            "start": 556.4,
+            "end": 557.4,
+            "text": " VS Code."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 364,
+            "start": 557.4,
+            "end": 558.4,
+            "text": " Which most of the people."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 365,
+            "start": 558.4,
+            "end": 559.4,
+            "text": " Want to use."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 366,
+            "start": 559.4,
+            "end": 560.4,
+            "text": " Prefer."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 367,
+            "start": 560.4,
+            "end": 561.4,
+            "text": " So I thought why not."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 368,
+            "start": 561.4,
+            "end": 562.4,
+            "text": " Try out VS Code."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 369,
+            "start": 562.4,
+            "end": 563.4,
+            "text": " If you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 370,
+            "start": 563.4,
+            "end": 564.4,
+            "text": " You can use."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 371,
+            "start": 564.4,
+            "end": 565.4,
+            "text": " So I thought why not."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 372,
+            "start": 565.4,
+            "end": 566.4,
+            "text": " Make videos in VS Code."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 373,
+            "start": 566.4,
+            "end": 567.4,
+            "text": " But I personally."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 374,
+            "start": 567.4,
+            "end": 568.4,
+            "text": " Use replit a lot."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 375,
+            "start": 568.4,
+            "end": 569.4,
+            "text": " Infact videos also come in replit."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 376,
+            "start": 569.4,
+            "end": 570.4,
+            "text": " Next topic is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 377,
+            "start": 570.4,
+            "end": 571.4,
+            "text": " SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 378,
+            "start": 571.4,
+            "end": 572.4,
+            "text": " Media related."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 379,
+            "start": 572.4,
+            "end": 573.4,
+            "text": " What is SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 380,
+            "start": 573.4,
+            "end": 574.4,
+            "text": " SVG is a format."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 381,
+            "start": 574.4,
+            "end": 575.4,
+            "text": " With which you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 382,
+            "start": 575.4,
+            "end": 576.4,
+            "text": " Can create an image."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 383,
+            "start": 576.4,
+            "end": 577.4,
+            "text": " With high graphics."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 384,
+            "start": 577.4,
+            "end": 578.4,
+            "text": " Vector images."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 385,
+            "start": 578.4,
+            "end": 579.4,
+            "text": " So if you copy."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 386,
+            "start": 579.4,
+            "end": 580.4,
+            "text": " You can basically make."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 387,
+            "start": 580.4,
+            "end": 581.4,
+            "text": " Circle in it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 388,
+            "start": 581.4,
+            "end": 582.4,
+            "text": " So SVG is used."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 389,
+            "start": 582.4,
+            "end": 583.4,
+            "text": " In the same way."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 390,
+            "start": 583.4,
+            "end": 584.4,
+            "text": " As."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 391,
+            "start": 584.4,
+            "end": 585.4,
+            "text": " Is used."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 392,
+            "start": 585.4,
+            "end": 586.4,
+            "text": " Our IMG tag."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 393,
+            "start": 586.4,
+            "end": 587.4,
+            "text": " So see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 394,
+            "start": 587.4,
+            "end": 588.4,
+            "text": " If I put SVG here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 395,
+            "start": 588.4,
+            "end": 589.4,
+            "text": " So you can see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 396,
+            "start": 589.4,
+            "end": 590.4,
+            "text": " It is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 397,
+            "start": 590.4,
+            "end": 591.4,
+            "text": " It is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 398,
+            "start": 591.4,
+            "end": 592.4,
+            "text": " It is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 399,
+            "start": 592.4,
+            "end": 593.4,
+            "text": " It is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 400,
+            "start": 593.4,
+            "end": 594.4,
+            "text": " If I put SVG here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 401,
+            "start": 594.4,
+            "end": 595.4,
+            "text": " So this SVG will come here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 402,
+            "start": 595.4,
+            "end": 596.4,
+            "text": " So see this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 403,
+            "start": 596.4,
+            "end": 597.4,
+            "text": " Circular SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 404,
+            "start": 597.4,
+            "end": 598.4,
+            "text": " Came here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 405,
+            "start": 598.4,
+            "end": 599.4,
+            "text": " Video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 406,
+            "start": 599.4,
+            "end": 600.4,
+            "text": " Audio."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 407,
+            "start": 600.4,
+            "end": 601.4,
+            "text": " SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 408,
+            "start": 601.4,
+            "end": 602.4,
+            "text": " These are inline elements."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 409,
+            "start": 602.4,
+            "end": 603.4,
+            "text": " That's why we are getting."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 410,
+            "start": 603.4,
+            "end": 604.4,
+            "text": " To see in one line."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 411,
+            "start": 604.4,
+            "end": 605.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 412,
+            "start": 605.4,
+            "end": 606.4,
+            "text": " You guys have seen here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 413,
+            "start": 606.4,
+            "end": 607.4,
+            "text": " Now what is here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 414,
+            "start": 607.4,
+            "end": 608.4,
+            "text": " You can save the SVG file separately."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 415,
+            "start": 608.4,
+            "end": 609.4,
+            "text": " You can save the SVG file separately."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 416,
+            "start": 609.4,
+            "end": 610.4,
+            "text": " Like if I write here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 417,
+            "start": 610.4,
+            "end": 611.4,
+            "text": " That."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 418,
+            "start": 611.4,
+            "end": 612.4,
+            "text": " IMG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 419,
+            "start": 612.4,
+            "end": 613.4,
+            "text": " SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 420,
+            "start": 613.4,
+            "end": 614.4,
+            "text": " And save the content of SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 421,
+            "start": 614.4,
+            "end": 615.4,
+            "text": " So if I."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 422,
+            "start": 615.4,
+            "end": 616.4,
+            "text": " Then I will write it as IMG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 423,
+            "start": 616.4,
+            "end": 617.4,
+            "text": " And I will write it as."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 424,
+            "start": 617.4,
+            "end": 618.4,
+            "text": " IMG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 425,
+            "start": 618.4,
+            "end": 619.4,
+            "text": " SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 426,
+            "start": 619.4,
+            "end": 620.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 427,
+            "start": 620.4,
+            "end": 621.4,
+            "text": " You can see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 428,
+            "start": 621.4,
+            "end": 622.4,
+            "text": " It is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 429,
+            "start": 622.4,
+            "end": 623.4,
+            "text": " So you guys see here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 430,
+            "start": 623.4,
+            "end": 624.4,
+            "text": " That I did not get to see this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 431,
+            "start": 624.4,
+            "end": 625.4,
+            "text": " If I write here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 432,
+            "start": 625.4,
+            "end": 626.4,
+            "text": " Alt."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 433,
+            "start": 626.4,
+            "end": 627.4,
+            "text": " And write."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 434,
+            "start": 627.4,
+            "end": 628.4,
+            "text": " My SVG image."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 435,
+            "start": 628.4,
+            "end": 629.4,
+            "text": " So you see here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 436,
+            "start": 629.4,
+            "end": 630.4,
+            "text": " That my SVG image."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 437,
+            "start": 630.4,
+            "end": 631.4,
+            "text": " Came like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 438,
+            "start": 631.4,
+            "end": 632.4,
+            "text": " But I did not get to see SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 439,
+            "start": 632.4,
+            "end": 633.4,
+            "text": " Why did this happen?"
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 440,
+            "start": 633.4,
+            "end": 634.4,
+            "text": " This happened because."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 441,
+            "start": 634.4,
+            "end": 635.4,
+            "text": " Because the SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 442,
+            "start": 635.4,
+            "end": 636.4,
+            "text": " SVG file."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 443,
+            "start": 636.4,
+            "end": 637.4,
+            "text": " In browser."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 444,
+            "start": 637.4,
+            "end": 638.4,
+            "text": " I write."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 445,
+            "start": 638.4,
+            "end": 639.4,
+            "text": " And."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 446,
+            "start": 639.4,
+            "end": 640.4,
+            "text": " SVG file."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 447,
+            "start": 640.4,
+            "end": 641.4,
+            "text": " Whenever you want in the browser."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 448,
+            "start": 641.4,
+            "end": 642.4,
+            "text": " That you see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 449,
+            "start": 642.4,
+            "end": 643.4,
+            "text": " So you put a declaration on top."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 450,
+            "start": 643.4,
+            "end": 644.4,
+            "text": " I show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 451,
+            "start": 644.4,
+            "end": 645.4,
+            "text": " So I wrote here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 452,
+            "start": 645.4,
+            "end": 646.4,
+            "text": " SVG file not showing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 453,
+            "start": 646.4,
+            "end": 647.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 454,
+            "start": 647.4,
+            "end": 648.4,
+            "text": " I will put it here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 455,
+            "start": 648.4,
+            "end": 649.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 456,
+            "start": 649.4,
+            "end": 650.4,
+            "text": " I will put it here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 457,
+            "start": 650.4,
+            "end": 651.4,
+            "text": " So I wrote here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 458,
+            "start": 651.4,
+            "end": 652.4,
+            "text": " Not showing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 459,
+            "start": 652.4,
+            "end": 653.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 460,
+            "start": 653.4,
+            "end": 654.4,
+            "text": " Here is a stack overflow answer."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 461,
+            "start": 654.4,
+            "end": 655.4,
+            "text": " Which will tell you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 462,
+            "start": 655.4,
+            "end": 656.4,
+            "text": " So you have to write this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 463,
+            "start": 656.4,
+            "end": 657.4,
+            "text": " I show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 464,
+            "start": 657.4,
+            "end": 658.4,
+            "text": " XML."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 465,
+            "start": 658.4,
+            "end": 659.4,
+            "text": " Something like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 466,
+            "start": 659.4,
+            "end": 660.4,
+            "text": " See."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 467,
+            "start": 660.4,
+            "end": 661.4,
+            "text": " You have to add this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 468,
+            "start": 661.4,
+            "end": 662.4,
+            "text": " It is called namespace declaration."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 469,
+            "start": 662.4,
+            "end": 663.4,
+            "text": " So this SVG."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 470,
+            "start": 663.4,
+            "end": 664.4,
+            "text": " You have to add this thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 471,
+            "start": 664.4,
+            "end": 665.4,
+            "text": " And."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 472,
+            "start": 665.4,
+            "end": 666.4,
+            "text": " Now you guys see here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 473,
+            "start": 666.4,
+            "end": 667.4,
+            "text": " SVG was seen."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 474,
+            "start": 667.4,
+            "end": 668.4,
+            "text": " So this thing is very important."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 475,
+            "start": 668.4,
+            "end": 669.4,
+            "text": " And many people."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 476,
+            "start": 669.4,
+            "end": 670.4,
+            "text": " In the future."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 477,
+            "start": 670.4,
+            "end": 671.4,
+            "text": " Whenever you make websites."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 478,
+            "start": 671.4,
+            "end": 672.4,
+            "text": " Your own."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 479,
+            "start": 672.4,
+            "end": 673.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 480,
+            "start": 673.4,
+            "end": 674.4,
+            "text": " Will definitely get stuck in this problem."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 481,
+            "start": 674.4,
+            "end": 675.4,
+            "text": " I keep getting stuck."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 482,
+            "start": 675.4,
+            "end": 676.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 483,
+            "start": 676.4,
+            "end": 677.4,
+            "text": " So I am telling you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 484,
+            "start": 677.4,
+            "end": 678.4,
+            "text": " That the problem in which you will get stuck."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 485,
+            "start": 678.4,
+            "end": 679.4,
+            "text": " I told you before."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 486,
+            "start": 679.4,
+            "end": 680.4,
+            "text": " You will get stuck in the problem."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 487,
+            "start": 680.4,
+            "end": 681.4,
+            "text": " You have not come to the problem."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 488,
+            "start": 681.4,
+            "end": 682.4,
+            "text": " I have told the problem."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 489,
+            "start": 682.4,
+            "end": 683.4,
+            "text": " That is coming."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 490,
+            "start": 683.4,
+            "end": 684.4,
+            "text": " And also told the solution."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 491,
+            "start": 684.4,
+            "end": 685.4,
+            "text": " The next topic is iframes."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 492,
+            "start": 685.4,
+            "end": 687.4,
+            "text": " Iframes is also a very simple thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 493,
+            "start": 687.4,
+            "end": 689.4,
+            "text": " That you can embed another website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 494,
+            "start": 689.4,
+            "end": 690.4,
+            "text": " From iframe."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 495,
+            "start": 690.4,
+            "end": 691.4,
+            "text": " In your website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 496,
+            "start": 691.4,
+            "end": 692.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 497,
+            "start": 692.4,
+            "end": 693.4,
+            "text": " Like if I want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 498,
+            "start": 693.4,
+            "end": 694.4,
+            "text": " That I embed this webpage."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 499,
+            "start": 694.4,
+            "end": 696.4,
+            "text": " So I can do it by using iframe."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 500,
+            "start": 696.4,
+            "end": 697.4,
+            "text": " So see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 501,
+            "start": 697.4,
+            "end": 698.4,
+            "text": " I wrote iframe this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 502,
+            "start": 698.4,
+            "end": 700.4,
+            "text": " And I will copy this URL."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 503,
+            "start": 700.4,
+            "end": 702.4,
+            "text": " And I will paste it here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 504,
+            "start": 702.4,
+            "end": 704.4,
+            "text": " And you guys see here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 505,
+            "start": 704.4,
+            "end": 705.4,
+            "text": " That this website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 506,
+            "start": 705.4,
+            "end": 706.4,
+            "text": " Is completely embedded here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 507,
+            "start": 706.4,
+            "end": 707.4,
+            "text": " In this much iframe."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 508,
+            "start": 707.4,
+            "end": 708.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 509,
+            "start": 708.4,
+            "end": 709.4,
+            "text": " You definitely want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 510,
+            "start": 709.4,
+            "end": 711.4,
+            "text": " That you embed this in a big iframe."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 511,
+            "start": 711.4,
+            "end": 712.4,
+            "text": " But if you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 512,
+            "start": 712.4,
+            "end": 713.4,
+            "text": " That it is embedded."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 513,
+            "start": 713.4,
+            "end": 715.4,
+            "text": " Then you can embed it like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 514,
+            "start": 715.4,
+            "end": 716.4,
+            "text": " I will do one thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 515,
+            "start": 716.4,
+            "end": 717.4,
+            "text": " I will increase its height a little."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 516,
+            "start": 717.4,
+            "end": 718.4,
+            "text": " So width is equal to width."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 517,
+            "start": 718.4,
+            "end": 719.4,
+            "text": " It is written."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 518,
+            "start": 719.4,
+            "end": 720.4,
+            "text": " Width is equal to."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 519,
+            "start": 720.4,
+            "end": 721.4,
+            "text": " Let's say 122."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 520,
+            "start": 721.4,
+            "end": 722.4,
+            "text": " Height is equal to."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 521,
+            "start": 722.4,
+            "end": 723.4,
+            "text": " Let's say 444."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 522,
+            "start": 723.4,
+            "end": 724.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 523,
+            "start": 724.4,
+            "end": 725.4,
+            "text": " Assume."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 524,
+            "start": 725.4,
+            "end": 726.4,
+            "text": " So see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 525,
+            "start": 726.4,
+            "end": 727.4,
+            "text": " It came like this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 526,
+            "start": 727.4,
+            "end": 728.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 527,
+            "start": 728.4,
+            "end": 729.4,
+            "text": " Now definitely."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 528,
+            "start": 729.4,
+            "end": 730.4,
+            "text": " It was coming in this width."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 529,
+            "start": 730.4,
+            "end": 731.4,
+            "text": " So it came in this line."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 530,
+            "start": 731.4,
+            "end": 732.4,
+            "text": " But if I increase the width a little."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 531,
+            "start": 732.4,
+            "end": 733.4,
+            "text": " Let's say I increase the width."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 532,
+            "start": 733.4,
+            "end": 734.4,
+            "text": " 322."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 533,
+            "start": 734.4,
+            "end": 735.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 534,
+            "start": 735.4,
+            "end": 736.4,
+            "text": " So see."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 535,
+            "start": 736.4,
+            "end": 737.4,
+            "text": " It is completely embedded here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 536,
+            "start": 737.4,
+            "end": 738.4,
+            "text": " My website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 537,
+            "start": 738.4,
+            "end": 739.4,
+            "text": " You are seeing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 538,
+            "start": 739.4,
+            "end": 740.4,
+            "text": " So you can embed a website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 539,
+            "start": 740.4,
+            "end": 741.4,
+            "text": " Another use case of iframe is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 540,
+            "start": 741.4,
+            "end": 742.4,
+            "text": " YouTube video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 541,
+            "start": 742.4,
+            "end": 743.4,
+            "text": " If you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 542,
+            "start": 743.4,
+            "end": 744.4,
+            "text": " You share the YouTube video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 543,
+            "start": 744.4,
+            "end": 745.4,
+            "text": " Click on embed here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 544,
+            "start": 745.4,
+            "end": 746.4,
+            "text": " Then it will give you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 545,
+            "start": 746.4,
+            "end": 747.4,
+            "text": " Iframe code."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 546,
+            "start": 747.4,
+            "end": 748.4,
+            "text": " And you can start it here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 547,
+            "start": 748.4,
+            "end": 749.4,
+            "text": " Anyhow."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 548,
+            "start": 749.4,
+            "end": 750.4,
+            "text": " If you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 549,
+            "start": 750.4,
+            "end": 751.4,
+            "text": " Start at a particular time."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 550,
+            "start": 751.4,
+            "end": 752.4,
+            "text": " Then you can do that here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 551,
+            "start": 752.4,
+            "end": 753.4,
+            "text": " The point at which you start."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 552,
+            "start": 753.4,
+            "end": 754.4,
+            "text": " And you will share it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 553,
+            "start": 754.4,
+            "end": 755.4,
+            "text": " That time comes here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 554,
+            "start": 755.4,
+            "end": 756.4,
+            "text": " I will show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 555,
+            "start": 756.4,
+            "end": 757.4,
+            "text": " Wait."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 556,
+            "start": 757.4,
+            "end": 758.4,
+            "text": " Assume."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 557,
+            "start": 758.4,
+            "end": 759.4,
+            "text": " I want to start from here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 558,
+            "start": 759.4,
+            "end": 760.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 559,
+            "start": 760.4,
+            "end": 761.4,
+            "text": " Assume."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 560,
+            "start": 761.4,
+            "end": 762.4,
+            "text": " Start the video from here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 561,
+            "start": 762.4,
+            "end": 763.4,
+            "text": " So what will I do."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 562,
+            "start": 763.4,
+            "end": 764.4,
+            "text": " I will click on share."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 563,
+            "start": 764.4,
+            "end": 765.4,
+            "text": " After clicking on share."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 564,
+            "start": 765.4,
+            "end": 766.4,
+            "text": " Embed it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 565,
+            "start": 766.4,
+            "end": 767.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 566,
+            "start": 767.4,
+            "end": 768.4,
+            "text": " I will click on embed after clicking on share."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 567,
+            "start": 768.4,
+            "end": 769.4,
+            "text": " Start at 12.19."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 568,
+            "start": 769.4,
+            "end": 770.4,
+            "text": " And I will copy it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 569,
+            "start": 770.4,
+            "end": 771.4,
+            "text": " Here is the copy button."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 570,
+            "start": 771.4,
+            "end": 772.4,
+            "text": " See."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 571,
+            "start": 772.4,
+            "end": 773.4,
+            "text": " And I will put it here in my code."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 572,
+            "start": 773.4,
+            "end": 774.4,
+            "text": " So I will comment this iframe."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 573,
+            "start": 774.4,
+            "end": 775.4,
+            "text": " And I will put it in the iframe below."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 574,
+            "start": 775.4,
+            "end": 776.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 575,
+            "start": 776.4,
+            "end": 777.4,
+            "text": " I will wrap the word."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 576,
+            "start": 777.4,
+            "end": 778.4,
+            "text": " So that you can see the code properly."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 577,
+            "start": 778.4,
+            "end": 779.4,
+            "text": " So now what I will do."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 578,
+            "start": 779.4,
+            "end": 780.4,
+            "text": " After pasting this."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 579,
+            "start": 780.4,
+            "end": 781.4,
+            "text": " I will show you the document."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 580,
+            "start": 781.4,
+            "end": 782.4,
+            "text": " See."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 581,
+            "start": 782.4,
+            "end": 783.4,
+            "text": " This video is embedded here."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 582,
+            "start": 783.4,
+            "end": 784.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 583,
+            "start": 784.4,
+            "end": 785.4,
+            "text": " So I hope you understood this thing."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 584,
+            "start": 785.4,
+            "end": 786.4,
+            "text": " And."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 585,
+            "start": 786.4,
+            "end": 787.4,
+            "text": " Media is only this much in HTML."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 586,
+            "start": 787.4,
+            "end": 788.4,
+            "text": " Pretty much."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 587,
+            "start": 788.4,
+            "end": 789.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 588,
+            "start": 789.4,
+            "end": 790.4,
+            "text": " I will show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 589,
+            "start": 790.4,
+            "end": 791.4,
+            "text": " I will show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 590,
+            "start": 791.4,
+            "end": 792.4,
+            "text": " I will show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 591,
+            "start": 792.4,
+            "end": 793.4,
+            "text": " I will show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 592,
+            "start": 793.4,
+            "end": 794.4,
+            "text": " I will show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 593,
+            "start": 794.4,
+            "end": 795.4,
+            "text": " I will show you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 594,
+            "start": 795.4,
+            "end": 796.4,
+            "text": " Media is only this much in HTML."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 595,
+            "start": 796.4,
+            "end": 797.4,
+            "text": " Pretty much."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 596,
+            "start": 797.4,
+            "end": 798.4,
+            "text": " Miscellaneous."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 597,
+            "start": 798.4,
+            "end": 799.4,
+            "text": " You will see a lot of things in every topic."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 598,
+            "start": 799.4,
+            "end": 800.4,
+            "text": " But pretty much."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 599,
+            "start": 800.4,
+            "end": 801.4,
+            "text": " That's all about media."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 600,
+            "start": 801.4,
+            "end": 802.4,
+            "text": " Audio, video, media is only this much in HTML."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 601,
+            "start": 802.4,
+            "end": 803.4,
+            "text": " This is what you will use 95% of the times."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 602,
+            "start": 803.4,
+            "end": 804.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 603,
+            "start": 804.4,
+            "end": 805.4,
+            "text": " Now I will give you a quick quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 604,
+            "start": 805.4,
+            "end": 806.4,
+            "text": " And your quick quiz is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 605,
+            "start": 806.4,
+            "end": 807.4,
+            "text": " Create a website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 606,
+            "start": 807.4,
+            "end": 808.4,
+            "text": " Which shows."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 607,
+            "start": 808.4,
+            "end": 809.4,
+            "text": " Videos of different categories."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 608,
+            "start": 809.4,
+            "end": 810.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 609,
+            "start": 810.4,
+            "end": 811.4,
+            "text": " And audios of different categories."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 610,
+            "start": 811.4,
+            "end": 812.4,
+            "text": " You can use."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 611,
+            "start": 812.4,
+            "end": 813.4,
+            "text": " YouTube videos."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 612,
+            "start": 813.4,
+            "end": 814.4,
+            "text": " In an iframe."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 613,
+            "start": 814.4,
+            "end": 815.4,
+            "text": " Using YouTube's iFrame."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 614,
+            "start": 815.4,
+            "end": 816.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 615,
+            "start": 816.4,
+            "end": 817.4,
+            "text": " So."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 616,
+            "start": 817.4,
+            "end": 818.4,
+            "text": " I will give you a quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 617,
+            "start": 818.4,
+            "end": 819.4,
+            "text": " I will give you a quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 618,
+            "start": 819.4,
+            "end": 820.4,
+            "text": " I will give you a quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 619,
+            "start": 820.4,
+            "end": 821.4,
+            "text": " I will give you a quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 620,
+            "start": 821.4,
+            "end": 822.4,
+            "text": " I will give you a quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 621,
+            "start": 822.4,
+            "end": 823.4,
+            "text": " I will give you a quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 622,
+            "start": 823.4,
+            "end": 824.4,
+            "text": " In an iframe."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 623,
+            "start": 824.4,
+            "end": 825.4,
+            "text": " Using YouTube's embedding feature."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 624,
+            "start": 825.4,
+            "end": 826.4,
+            "text": " Okay."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 625,
+            "start": 826.4,
+            "end": 827.4,
+            "text": " So what you have to do is."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 626,
+            "start": 827.4,
+            "end": 828.4,
+            "text": " You have to make a website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 627,
+            "start": 828.4,
+            "end": 829.4,
+            "text": " In which you will get a lot of content."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 628,
+            "start": 829.4,
+            "end": 830.4,
+            "text": " Now you use video audio tags."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 629,
+            "start": 830.4,
+            "end": 831.4,
+            "text": " And using YouTube's share feature."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 630,
+            "start": 831.4,
+            "end": 832.4,
+            "text": " The way I did YouTube video embed."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 631,
+            "start": 832.4,
+            "end": 833.4,
+            "text": " You can also embed it in the same way."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 632,
+            "start": 833.4,
+            "end": 834.4,
+            "text": " And make a very good website."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 633,
+            "start": 834.4,
+            "end": 835.4,
+            "text": " And show it to me."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 634,
+            "start": 835.4,
+            "end": 836.4,
+            "text": " If you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 635,
+            "start": 836.4,
+            "end": 837.4,
+            "text": " You can give me a comment of github."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 636,
+            "start": 837.4,
+            "end": 838.4,
+            "text": " And if you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 637,
+            "start": 838.4,
+            "end": 839.4,
+            "text": " You can tell me the code."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 638,
+            "start": 839.4,
+            "end": 840.4,
+            "text": " You can explain it."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 639,
+            "start": 840.4,
+            "end": 841.4,
+            "text": " But do try this quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 640,
+            "start": 841.4,
+            "end": 842.4,
+            "text": " And in the comment section."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 641,
+            "start": 842.4,
+            "end": 843.4,
+            "text": " Write sigma b."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 642,
+            "start": 843.4,
+            "end": 844.4,
+            "text": " And if you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 643,
+            "start": 844.4,
+            "end": 845.4,
+            "text": " You can write sigma b."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 644,
+            "start": 845.4,
+            "end": 846.4,
+            "text": " And if you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 645,
+            "start": 846.4,
+            "end": 847.4,
+            "text": " You can write sigma b."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 646,
+            "start": 847.4,
+            "end": 848.4,
+            "text": " And if you want."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 647,
+            "start": 848.4,
+            "end": 849.4,
+            "text": " You can write sigma b."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 648,
+            "start": 850.4,
+            "end": 851.4,
+            "text": " But do try this quiz."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 649,
+            "start": 851.4,
+            "end": 852.4,
+            "text": " And in the comment section."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 650,
+            "start": 852.4,
+            "end": 853.4,
+            "text": " Write sigma b."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 651,
+            "start": 853.4,
+            "end": 854.4,
+            "text": " Access this playlist."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 652,
+            "start": 854.4,
+            "end": 855.4,
+            "text": " Like this video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 653,
+            "start": 855.4,
+            "end": 856.4,
+            "text": " Write sigma b."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 654,
+            "start": 856.4,
+            "end": 857.4,
+            "text": " That's all for this video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 655,
+            "start": 857.4,
+            "end": 858.4,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 656,
+            "start": 858.4,
+            "end": 859.4,
+            "text": " And I will see you."
+        },
+        {
+            "title": "Video, Audio & Media in HTML",
+            "id": 657,
+            "start": 859.4,
+            "end": 860.4,
+            "text": " Next time."
+        }
+    ],
+    "text": " In today's video, we will learn how audio, video and media elements are used in HTML. We saw in our very first video that we can embed videos in HTML. Today I will tell you how the video is auto-played, how to keep a muted video and how you can enable and disable the video controls. Along with that, we will also see very closely about audio, how media can be shown in an overall page. So do like this video and stay in this video because the examples I have used for video tags are very amazing. Let's go to the video screen. Let's roll the intro. Intro Friends, this time I have made a folder named video10 and I will not waste your time by opening open with code by right-clicking and shifting. In fact, I will make it in index.html. And the topic of today's video is video. How to play a video, how to put a video in an HTML file, how to put audio, how to put media. So adding a video is very straightforward. I will copy it here, which is our video tag. It has an src attribute and it has some other attributes which I will discuss with you. But first of all, I want to tell you here that video src is equal to you will write here like this. So if you have video.mp4, it will play. I have video.mp4. So let's see here. I have put it here with control and I will click here and preview it. And you can see here that this video has come. Okay, now it's a very big video. So what can I do? I can give its width. So I can say here width is equal to 555 pixels. And as soon as I do 555 pixels, in fact, I don't need to write px. I will only do 555. Like we don't need to write px in the image. Here too we will not need to write px. So as soon as I did width is equal to 555, in fact, I do one thing. I do height is equal to 555 so that it becomes smaller. In fact, I make it smaller. I make it 255. And you see it came here. Okay, now I play it because I have put control. I can play it. What did you say? What name did you say? Where did you go in the US? I have gone to many places in the US. Tell me the name. So what is it that you can play the video like this. Now here are some attributes of the video tag. See, it is very simple to use the video tag. You should have a video. You have given the path of the video. After that you have given the controls. So these controls will come to you. You can download it. You can do full screen. You can do mute. You can do picture in picture. All this is automatically provided by your browser. But let me tell you about some attributes. The first attribute is src. So you know that put the video here. The name of the video file is src. This video file can also come from the external URL. You understand that if I have uploaded a video on Amazon S3 or somewhere else. So I can also put the URL there. It is not necessary that the file is in your computer. It can be on your server. It can also come from the third party. Now what does the controls do? Adds video controls like play, pause and volume. Which we saw here in the video of Bhupendra Jogi. That you are getting to see the controls here. Now what is this thing? The browser automatically sees what the control ads will be in your video. What will not be. Then see what will autoplay do? It will automatically play as soon as the page is loaded. So if I put autoplay here. Suppose I put autoplay here. Okay. See what is happening here. So you can see that it is autoplay here. So I will remove autoplay from here. And our next attribute is loop. That is, once our video is played, it will loop. Like I show you. So it started again. Once I finished it, it started again. So this loop works like this. The next attribute is muted. Muted mutes the video. So if I write here muted. Sometimes we want the video to be muted. In fact, when I add videos here on codewithhari.com. And I demonstrate something like downloading VS Code or something. So I use the muted attribute. Because I don't want when I record a video. If there is any background noise, you can hear it. For example, I want to show you that this is the element. So I will make a video by scrolling like this. I will highlight it like this. So I don't need audio in it. So I mute it. So you can use the muted attribute in your website. Then the poster. The poster is very important. So I have an image here. Download.jpg. If I write here, poster is equal to. And I write download.jpg. So you see, it will look something like this. This is how the poster looks. Then I will play. So the video will play. So in a way, the thumbnail. You saw the thumbnail of the YouTube video. This is exactly the same. This is the poster attribute. So you can use all these attributes. You know that the width and height specify the dimension of the video. Like I added both width and height here. You saw. So I hope you understood this thing. Now the thing I want to tell you after this is audio. So this is for all the attributes of your video. It is very straightforward. I want you to make a website. Which I am going to give you at the end of this video. In quick quiz. So listen to the quick quiz. In fact, I will put the heading here. Quick quiz. Okay. So that I don't forget. I will give you this now. And this is going to be a very fun quiz. And everyone must solve it. But before that. As soon as you write audio, src comes here. And I have to put src in sachin.mp3. So as soon as I put sachin.mp3. Now see here. I will reload it. And there is no audio here. Which is strange. Let's see what the problem is here. I put src is equal to. I have to write controls here too. So if I don't write controls, I won't see the audio. See now the audio has come. I can see the controls here. I can also set its volume. I play this audio. Sachin, what is in sachin? It's a bad sachin. Okay. So this is our audio. If I mute it and run it, it won't work. And I can also increase it further. It's a bad sachin. Okay. You people have seen. So this is audio named sachin.mp3. Now what we will do. That we will see some attributes of this audio. You know src. Source of the video file. Okay. Then after this, you know the controls. Play, pause and volume. Which we just saw. What will autoplay do? It will automatically play it. If I have here. Autoplay. Sachin, what is in sachin? It will automatically play it. It's a bad sachin. Okay. So what does autoplay do? It automatically plays our audio. After this. The next attribute is loop. What will loop do? It will repeat it. If I want to loop it. So I have autoplayed it. Now I will loop it. Sachin, what is in sachin? It's a bad sachin. Once. Sachin, what is in sachin? Second time. It's a bad sachin. So you saw it was repeated. Means it was played once. Then it was played again. Because it is looped. So you saw this thing. Sachin.mp3 looped. Means it was played once. Then it was played. Then it was played. Sachin, what is in sachin? It was repeated. Because this mp3. Will be played again and again. So there are many cases. When you want. This mp3 to be repeated. Okay. So if you want. Your mp3 to be repeated. Then you can use it. Now after this. Muted. What will it do? It will mute the audio. And definitely. You will hear. The sound. It will be muted. So you can hear. The sound. So you can hear. So you can hear. So you can hear. And definitely. You don't want. By default. Your audio to be muted. In most of the cases. But. Sometimes we want. That. The audio is muted. And we can say here. To the user. Brother, whoever wants to hear. Unmute. Sachin, what is it? When do we do this? Which are multiple audios. You want to show 5-6 audios at once. You can mute them. Your user can play. Unmute. And see. Okay. So. You have control in your hand. If you want. You can use this thing. Okay. All in all. This is the thing. I hope you enjoyed it. Now preload. The most confusing. Attribute. And that's why I have. Explained it on codewithaddy.com. That the preload attribute. It can have these values. The first value can be none. This is the default value. It indicates. That the browser should not. Preload the audio at all. Okay. Preload means. If you want. That the browser fetches the data. Then you will use the preload attribute. Otherwise. You will not use the preload attribute. Okay. Preload is equal to none. Default value. Preload is equal to metadata. Means. That the browser. Will not fetch the data. Okay. Preload is equal to metadata. Means. That the browser. Only the metadata. That is. The information about that audio file. It will preload it. It will load it from the beginning. And what will happen by doing auto. That the browser. Will preload the entire audio. Okay. So preload is equal to auto. If I do. Then it will download. And automatically. Will be loaded. So that whenever the user plays it. Then the audio is saved. Okay. So. This is the work of the preload attribute. And in interviews. This preload attribute is asked a lot. So you should know. That what is the preload attribute. Before moving forward. I want you to. Share this playlist. With your friends. Because I am seeing. That the interest is declining a lot. As we are moving forward in the videos. My request to you is. That you like this video. And along with that. As you are forking this repository. You should also star it. Okay. Your star. Your likes. All this will help me a lot. To bring such free courses. So this was. About audio and video tags. Okay. I have told you all the attributes. And you should definitely use it. I will give you all the images. So that you can. Understand it. Okay. So. I am signing off. I am signing off. I am signing off. I will give you all the links. So that you can. Try out this thing. Now many people were asking. Can we use replit. See in this course. I have not used replit. But replit.com is an amazing website. If you want. If you want to use in your phone. HTML. If you want to run. There is also a replit app. For IOS. There is also for Android. So you can try this out. Many people are asking. How to do coding in the phone. Replit. But what I want now. VS Code. Which most of the people. Want to use. Prefer. So I thought why not. Try out VS Code. If you want. You can use. So I thought why not. Make videos in VS Code. But I personally. Use replit a lot. Infact videos also come in replit. Next topic is. SVG. Media related. What is SVG. SVG is a format. With which you. Can create an image. With high graphics. Vector images. So if you copy. You can basically make. Circle in it. So SVG is used. In the same way. As. Is used. Our IMG tag. So see. If I put SVG here. So you can see. It is. It is. It is. It is. If I put SVG here. So this SVG will come here. So see this. Circular SVG. Came here. Video. Audio. SVG. These are inline elements. That's why we are getting. To see in one line. Okay. You guys have seen here. Now what is here. You can save the SVG file separately. You can save the SVG file separately. Like if I write here. That. IMG. SVG. And save the content of SVG. So if I. Then I will write it as IMG. And I will write it as. IMG. SVG. So. You can see. It is. So you guys see here. That I did not get to see this. If I write here. Alt. And write. My SVG image. So you see here. That my SVG image. Came like this. But I did not get to see SVG. Why did this happen? This happened because. Because the SVG. SVG file. In browser. I write. And. SVG file. Whenever you want in the browser. That you see. So you put a declaration on top. I show you. So I wrote here. SVG file not showing. So. I will put it here. So. I will put it here. So I wrote here. Not showing. So. Here is a stack overflow answer. Which will tell you. So you have to write this. I show you. XML. Something like this. See. You have to add this. It is called namespace declaration. So this SVG. You have to add this thing. And. Now you guys see here. SVG was seen. So this thing is very important. And many people. In the future. Whenever you make websites. Your own. So. Will definitely get stuck in this problem. I keep getting stuck. Okay. So I am telling you. That the problem in which you will get stuck. I told you before. You will get stuck in the problem. You have not come to the problem. I have told the problem. That is coming. And also told the solution. The next topic is iframes. Iframes is also a very simple thing. That you can embed another website. From iframe. In your website. Okay. Like if I want. That I embed this webpage. So I can do it by using iframe. So see. I wrote iframe this. And I will copy this URL. And I will paste it here. And you guys see here. That this website. Is completely embedded here. In this much iframe. Okay. You definitely want. That you embed this in a big iframe. But if you want. That it is embedded. Then you can embed it like this. I will do one thing. I will increase its height a little. So width is equal to width. It is written. Width is equal to. Let's say 122. Height is equal to. Let's say 444. Okay. Assume. So see. It came like this. Okay. Now definitely. It was coming in this width. So it came in this line. But if I increase the width a little. Let's say I increase the width. 322. Okay. So see. It is completely embedded here. My website. You are seeing. So you can embed a website. Another use case of iframe is. YouTube video. If you want. You share the YouTube video. Click on embed here. Then it will give you. Iframe code. And you can start it here. Anyhow. If you want. Start at a particular time. Then you can do that here. The point at which you start. And you will share it. That time comes here. I will show you. Wait. Assume. I want to start from here. Okay. Assume. Start the video from here. So what will I do. I will click on share. After clicking on share. Embed it. Okay. I will click on embed after clicking on share. Start at 12.19. And I will copy it. Here is the copy button. See. And I will put it here in my code. So I will comment this iframe. And I will put it in the iframe below. Okay. I will wrap the word. So that you can see the code properly. So now what I will do. After pasting this. I will show you the document. See. This video is embedded here. Okay. So I hope you understood this thing. And. Media is only this much in HTML. Pretty much. So. I will show you. I will show you. I will show you. I will show you. I will show you. I will show you. Media is only this much in HTML. Pretty much. Miscellaneous. You will see a lot of things in every topic. But pretty much. That's all about media. Audio, video, media is only this much in HTML. This is what you will use 95% of the times. Okay. Now I will give you a quick quiz. And your quick quiz is. Create a website. Which shows. Videos of different categories. Okay. And audios of different categories. You can use. YouTube videos. In an iframe. Using YouTube's iFrame. Okay. So. I will give you a quiz. I will give you a quiz. I will give you a quiz. I will give you a quiz. I will give you a quiz. I will give you a quiz. In an iframe. Using YouTube's embedding feature. Okay. So what you have to do is. You have to make a website. In which you will get a lot of content. Now you use video audio tags. And using YouTube's share feature. The way I did YouTube video embed. You can also embed it in the same way. And make a very good website. And show it to me. If you want. You can give me a comment of github. And if you want. You can tell me the code. You can explain it. But do try this quiz. And in the comment section. Write sigma b. And if you want. You can write sigma b. And if you want. You can write sigma b. And if you want. You can write sigma b. But do try this quiz. And in the comment section. Write sigma b. Access this playlist. Like this video. Write sigma b. That's all for this video. Thank you so much for watching this video. And I will see you. Next time."
+}
