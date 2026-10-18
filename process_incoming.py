@@ -18,12 +18,20 @@ def create_embedding(text_list):
     return all_embeddings
 
 def inference(prompt):
-    response = generate(
+    stream = generate(
         model = "llama3.2",
         prompt = prompt,
-        stream = False
+        stream = True
     )
-    return response["response"]
+
+    full_response = ""
+    for chunk in stream:
+        content = chunk["response"]
+        print(content, end="", flush=True)  
+        full_response += content            
+        
+    print()  
+    return full_response
     
 
 df = joblib.load("embeddings.joblib")
@@ -49,7 +57,6 @@ with open("prompt.txt", "w", encoding="utf-8") as f:
     f.write(prompt)
 
 response = (inference(prompt))
-print(response)
 
 with open("response.txt", "w", encoding="utf-8") as f:
     f.write(response)
