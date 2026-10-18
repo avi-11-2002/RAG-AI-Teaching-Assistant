@@ -1,0 +1,320 @@
+{
+    "chunks": [
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 0.0,
+            "end": 44.92,
+            "text": " In today's video, we will learn about Core Web Vitals and why they are important.  Like this video and keep your energy high.  The thing is that your website should run on all devices in iPad, iPhone, Android, Surface Pro 4.  Because we have to give a good experience to all users through our website.  In this video, we will also learn that there is a hidden tool in Chrome called Lighthouse.  And how you can use it to enhance your website.  So write in the comment section below, Sigma Batch OP.  Let's go to the computer screen.  Let's roll the intro.  So guys, I have come to my computer screen."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 44.92,
+            "end": 73.48,
+            "text": " And now I will make a new folder whose name is Video 6.  Video 6.  And here in Video 6, I will open VS Code as always.  And the thing I am going to tell you today is very important from the aspect of SEO.  First of all, I want to tell you what is SEO?  SEO stands for Search Engine Optimization.  If you see any website, it has SEO in it.  Let's take the example of Amazon.in.  I opened Amazon.in.  So Amazon.in wants this website to be loaded as soon as possible."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 73.48,
+            "end": 100.56,
+            "text": " So that their products can come in search.  Google is a search engine.  Google's responsibility is to show the best pages to the users.  So Google wants to show only those pages that are fast.  They present the information very well.  And along with that, there are some things in them that the user has a good experience.  For example, let's say there are two pages.  One page has told about dog food.  The other page has also told exactly the same thing about dog food.  But the page 2 of these two is loaded very fast."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 100.56,
+            "end": 124.08,
+            "text": " It loads well.  So Google will give it more preference.  Along with that, there are core web vitals.  Which Google considers to rank two pages.  First of all, it is content.  Content is the most important.  What do you have on one page?  If your content is good, then maybe your website can rank without core web vitals.  But if you are competing with a page that has presented almost similar quality content.  Then your core web vitals will be seen."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 124.08,
+            "end": 146.48,
+            "text": " And if your core web vitals are good, then you will be given preference.  So the first thing that comes in the core web vitals is your CLS.  You see this video here.  Which I have run from web.dev website.  You will see that someone comes to your website.  And he is trying to cancel the order here.  And by mistake, the time he canceled, this thing above became visible.  And he shifted the layout.  And the order is complete.  But the user wanted the order to be incomplete."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 146.48,
+            "end": 164.35999999999999,
+            "text": " He wanted to click on no.  In this case, the user experience is very bad.  And as you saw in this video, it should not be like this.  That's why our CLS should be as low as possible.  Now what is the definition of CLS?  Cumulative layout shift means.  How much is shifting while the page is loading.  Assume that you have loaded the page.  And first of all, you get to see this.  It was above first."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 164.35999999999999,
+            "end": 183.88,
+            "text": " And after that, when this keyterm part was loaded.  So everything shifted down.  The layout should not shift.  If you put width and height in images.  Then the layout will not shift.  The next metric we are going to talk about is LCP.  And LCP stands for Largest Contextual Paint.  This means that if the user is viewing a page.  Then the biggest element on it.  For example, the biggest part in this is this image."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 183.88,
+            "end": 203.12,
+            "text": " How long is it loading?  Means the whole page will be loaded.  But the biggest looking element.  Which is the most important.  How long is it loading?  According to web.dev and Google.  A good LCP score should be 2.5 seconds.  Means the biggest element should be loaded in 2.5 seconds.  After this comes the third metric which is FID.  Which stands for First Input Delay."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 203.12,
+            "end": 224.51999999999998,
+            "text": " First Input Delay means that.  If any user has clicked on any input element.  Like on a button or any type of input on a page.  So how long does that input process?  For example, if you click on a button.  So how long does that button click browser process?  And according to Google and web.dev.  Your input should start processing in less than 100 milliseconds.  So these were the three core web vitals.  Which are very important."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 224.52,
+            "end": 241.4,
+            "text": " For your information.  These core web vitals are updated.  But these three are very important.  And you should know.  Now I will show you.  What is a lighthouse report?  And why do they generate?  And how will these three core web vitals get their value from there?  So I will tell you here.  If you will inspect by right clicking."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 241.4,
+            "end": 262.28,
+            "text": " And you might have it on the right side.  So you can click here and bring it down.  By clicking here.  If you want you can bring it here again.  And by clicking here you can bring it down.  I prefer it down.  Because I am used to seeing it down from the starting.  Now you can see the option of lighthouse here.  Lighthouse basically generates a report for you.  And tells you what can be improved in your HTML page."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 262.28,
+            "end": 279.44,
+            "text": " For example, if I want to see here on mobile.  How mobile users are seeing my website.  So I will click on mobile.  Or I will click on desktop.  I will close this tab.  I will click on mobile.  And I will click on analyze page load here.  So this will generate a report for me.  Lighthouse.  You can see here that a report has been generated."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 279.44,
+            "end": 306.04,
+            "text": " In this performance, accessibility, best practices, SE and PWA.  Now you can see here that some things are shown in red.  That is, the scope of improvement is in the page.  Now you can see here that it is telling you to size your images properly.  Your website can be loaded 2.7 seconds fast.  So all these suggestions are given to you.  By lighthouse.  And if you incorporate these suggestions.  Then your website will be loaded very well.  And will give a good experience to the user."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 306.04,
+            "end": 325.08,
+            "text": " Now you can see here that image elements do not have explicit width and height.  So you should give width and height.  So you should use the width and height attribute of the image.  Which we read in the last video.  You should use it.  So that your browser has space.  When we set width and height in HTML.  Then there is space in the browser.  Otherwise, if we do not set height and width.  Then what will happen."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 325.08,
+            "end": 347.59999999999997,
+            "text": " Our browser will not know how much space to reserve.  And as long as CSS will load.  The whole page will shift from bottom to top.  So we don't want our page to shift during loading time.  If our page starts shifting.  So if we are going to click here.  Then we can click here.  Suppose an image was going to come here.  I am going to click here.  And as soon as I clicked."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 347.59999999999997,
+            "end": 362.59999999999997,
+            "text": " This image was loaded.  And all this content shifted down.  And instead of clicking here by mistake.  I will click on the image.  This is called cumulative layout shift.  So this kind of shift is not preferred at all.  Google does not prefer at all.  And this should be minimum.  You can see that the space is very less.  Cumulative layout shift."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 362.59999999999997,
+            "end": 382.12,
+            "text": " So we have to keep the cumulative layout shift minimum.  So that our user can get a very good experience.  So here we get a lot of suggestions.  And this is for our mobile.  Now we can generate a desktop report.  And the desktop report will be generated.  So as you can see.  It has generated a report.  92 marks in performance.  100 out of 82 in accessibility."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 382.12,
+            "end": 397.64,
+            "text": " 75 in best practices.  Now you see here.  The good things that have been told.  And the scope of improvement that Lighthouse tells you.  So this is a hidden tool.  Which we should all use.  Now I want to tell you.  About meta tags and meta description.  So what I will do here.  I will make a new file."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 397.64,
+            "end": 415.64,
+            "text": " I will name it index.html.  And after making an HTML file.  The first SEO element I want to tell you.  That is title.  If your title is reflecting the content of your page.  So this is a very good SEO practice.  Whenever your page is changing.  You make the title in such a way.  That it reflects the content of your page.  Because if you want your website on Google."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 415.64,
+            "end": 427.65999999999997,
+            "text": " Then it will come according to the title.  The index of Google.  Like you guys write here.  Code with Harry.  Okay.  And you write like this.  So this thing is the title of the page.  And this is the title of the page.  Which is put by YouTube.  This is the title of the page."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 427.65999999999997,
+            "end": 443.65999999999997,
+            "text": " Which is put by Instagram.  This is the title of the page.  Which is put by GitHub.  So if the title is put on the page.  And the title actually.  Which reflects the content of your page.  Truly.  Then your website will rank very well.  Now let's say I put content here.  And I put an h1."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 443.65999999999997,
+            "end": 458.68,
+            "text": " And I write here Harry.  And after that let's say.  I write a paragraph here.  And I write lorem 45 here.  Now why did I write lorem 45?  I will do view word wrap.  Why did I write 45?  This is a very good question.  I wrote 45 because I am lazy.  And 4 and 5 are around."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 458.68,
+            "end": 469.68,
+            "text": " So I doubled 4 and 5.  I also write 23.  Because they are also around.  Okay.  So there is no other reason.  Now I will preview it quickly.  I will open in browser.  So see it looks like this.  Now this document is written.  If I leave it like this."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 469.68,
+            "end": 486.7,
+            "text": " Then this SEO practice will not be good.  I will write here about Harry.  And I will write here code with Harry.  Which is my website.  Okay.  And what will happen by doing this.  That my title will reflect here.  As you can see.  So what will happen by doing this kind of work.  That my website will have more chances to be seen in Google."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 486.7,
+            "end": 505.7,
+            "text": " By inspecting I will also take out its light house report.  And I will see what are the scope of improvements.  Now its light house report will be very good.  Because there is nothing in it that I should improve.  But when I will put images etc.  Then I will get suggestions.  Like put width.  Put height.  Along with that I will tell you one more trick.  So that you can see your website on any mobile."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 505.7,
+            "end": 522.72,
+            "text": " You will know this.  So you guys click here.  Can you see the computer here?  Click on it.  And after that if you choose responsive in it.  Then you can see.  How your website will be seen in any kind of device.  So you can see here if your website is responsive or not.  By doing this.  If you go to see in a specific device."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 522.72,
+            "end": 540.72,
+            "text": " Like in iPhone 12 Pro.  Your website will look like this in iPhone 12 Pro resolution.  Now don't say why there is no 15 or 16 in it.  12 Pro means big iPhone device.  Understand okay.  In such a big device.  In such a big device.  How your website will look.  This is simply being told to you guys.  Okay."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 540.74,
+            "end": 557.74,
+            "text": " Now you guys can see here.  How it will look in Surface Pro 7.  By clicking here.  How it will look in Google phones.  You can also know this.  And if you want to take a general view.  That my website in responsive device.  In any kind of device.  Like in iPad.  How it will look."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 557.74,
+            "end": 572.76,
+            "text": " Now if you don't have a device here.  Then you choose responsive.  And take out the approximate width of your device.  In total, your website should look good in all the width devices.  How this happens.  I will tell you later in this course.  Now if you click here again.  Then it gets closed.  This responsive view gets closed.  And as soon as it gets closed."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 572.76,
+            "end": 586.76,
+            "text": " Your website looks like this.  I will close it.  I will come back here.  Now I will tell you about Meta text.  Here I will write like Meta.  Then see here Meta DESC is coming.  Okay.  I will click on Meta DESC.  And here I can give the description of my page.  Suppose I give."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 586.76,
+            "end": 602.78,
+            "text": " This is the page.  This is a page about.  This is a page which contains description.  About Harry.  Okay.  And whatever page content you have here.  You write whatever you want.  Like I show you.  Suppose you write what is SEO.  Okay."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 603.78,
+            "end": 614.78,
+            "text": " What is SEO.  You have written.  And see here.  This page has put this Meta description.  SEO stands for this.  In simple terms.  Now it is not necessary that a search engine.  Will parse your Meta DESC.  It will not do this.  If it liked it."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 614.78,
+            "end": 627.78,
+            "text": " It will parse and keep your Meta DESC here.  If you have not put Meta DESC.  Then it can be generated from your content.  Meta DESC.  So this is the responsibility of the search engine.  What will Bing do?  What will Google do?  We do not know.  But from our side.  Our page should be absolutely to the point."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 627.8,
+            "end": 644.8,
+            "text": " Especially if we are writing a blog.  And we want.  That our page should rank organically.  So here you can see.  That I have put Meta DESC.  Now a Meta keyword used to work a lot before.  But now the Meta keyword.  It has been deprecated.  Meta keyword is not used at all now.  The code of Meta keywords looks something like this."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 644.8,
+            "end": 656.8,
+            "text": " But it is believed that.  Meta keywords.  They do not rank at all in SEO.  Because people abuse it more.  Suppose you have written a page.  About pets.  And you have written.  What is SEO in Meta keyword.  So it is not that.  Your page will be ranked."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 656.8199999999999,
+            "end": 667.8199999999999,
+            "text": " I am here.  The double quotes are wrong.  I fix them.  So if I put Meta keyword here.  It is not necessary.  The search engine will consider it.  Some search engines do this.  That do not believe in Meta keywords.  They say.  We do not want to see your Meta keywords."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 667.8199999999999,
+            "end": 679.8199999999999,
+            "text": " You do not put.  So Meta keywords used to work a lot before.  But now it does not work.  Now the content of your page is being parsed.  And now the time of AI is coming.  So especially more.  Your content will be understood.  What value is your content giving?  It will be understood.  Accordingly it will be ranked."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 679.8199999999999,
+            "end": 691.84,
+            "text": " Now if you want to know exactly.  About these Core Web Vitals.  For example.  If I do it right.  And inspect.  And go to Lighthouse.  And for the desktop.  I take out the Lighthouse report.  So some Core Web Vitals come.  Like LCP comes."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 691.84,
+            "end": 701.84,
+            "text": " Then after that.  FCP comes.  First Contextual Paint.  Now you can see here.  Everything is 100.  100.  100.  100.  100.  100."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 701.84,
+            "end": 711.84,
+            "text": " 100.  100.  100.  100.  100.  100.  100.  100.  100.  100."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 711.84,
+            "end": 721.86,
+            "text": " 100.  100.  100.  100.  100.  100.  100.  100.  100.  100."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 721.86,
+            "end": 731.86,
+            "text": " 100.  100.  100.  100.  100.  100.  100.  100.  100.  100."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 731.86,
+            "end": 741.86,
+            "text": " 100.  100.  100.  100.  100.  100.  100.  100.  100.  100."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 741.86,
+            "end": 762.86,
+            "text": " 100.  1  100.  If you want to learn more about it, you can learn PWA.  There is a lot of good content about all these things.  But we will focus on making HTML, CSS, JavaScript and websites in this course.  This thing should have come to you according to me.  Because of which I told you about it.  If you have not accessed the Sigma web development series yet,  Then do access it."
+        },
+        {
+            "number": "6",
+            "title": "SEO and Core Web Vitals in HTML",
+            "start": 762.86,
+            "end": 794.86,
+            "text": " Access the playlist and bookmark it.  Or click on the star and click here to save.  That's all for this video guys.  Thank you so much guys for watching this video.  And I will see you next time.  Music."
+        }
+    ],
+    "text": " In today's video, we will learn about Core Web Vitals and why they are important. Like this video and keep your energy high. The thing is that your website should run on all devices in iPad, iPhone, Android, Surface Pro 4. Because we have to give a good experience to all users through our website. In this video, we will also learn that there is a hidden tool in Chrome called Lighthouse. And how you can use it to enhance your website. So write in the comment section below, Sigma Batch OP. Let's go to the computer screen. Let's roll the intro. So guys, I have come to my computer screen. And now I will make a new folder whose name is Video 6. Video 6. And here in Video 6, I will open VS Code as always. And the thing I am going to tell you today is very important from the aspect of SEO. First of all, I want to tell you what is SEO? SEO stands for Search Engine Optimization. If you see any website, it has SEO in it. Let's take the example of Amazon.in. I opened Amazon.in. So Amazon.in wants this website to be loaded as soon as possible. So that their products can come in search. Google is a search engine. Google's responsibility is to show the best pages to the users. So Google wants to show only those pages that are fast. They present the information very well. And along with that, there are some things in them that the user has a good experience. For example, let's say there are two pages. One page has told about dog food. The other page has also told exactly the same thing about dog food. But the page 2 of these two is loaded very fast. It loads well. So Google will give it more preference. Along with that, there are core web vitals. Which Google considers to rank two pages. First of all, it is content. Content is the most important. What do you have on one page? If your content is good, then maybe your website can rank without core web vitals. But if you are competing with a page that has presented almost similar quality content. Then your core web vitals will be seen. And if your core web vitals are good, then you will be given preference. So the first thing that comes in the core web vitals is your CLS. You see this video here. Which I have run from web.dev website. You will see that someone comes to your website. And he is trying to cancel the order here. And by mistake, the time he canceled, this thing above became visible. And he shifted the layout. And the order is complete. But the user wanted the order to be incomplete. He wanted to click on no. In this case, the user experience is very bad. And as you saw in this video, it should not be like this. That's why our CLS should be as low as possible. Now what is the definition of CLS? Cumulative layout shift means. How much is shifting while the page is loading. Assume that you have loaded the page. And first of all, you get to see this. It was above first. And after that, when this keyterm part was loaded. So everything shifted down. The layout should not shift. If you put width and height in images. Then the layout will not shift. The next metric we are going to talk about is LCP. And LCP stands for Largest Contextual Paint. This means that if the user is viewing a page. Then the biggest element on it. For example, the biggest part in this is this image. How long is it loading? Means the whole page will be loaded. But the biggest looking element. Which is the most important. How long is it loading? According to web.dev and Google. A good LCP score should be 2.5 seconds. Means the biggest element should be loaded in 2.5 seconds. After this comes the third metric which is FID. Which stands for First Input Delay. First Input Delay means that. If any user has clicked on any input element. Like on a button or any type of input on a page. So how long does that input process? For example, if you click on a button. So how long does that button click browser process? And according to Google and web.dev. Your input should start processing in less than 100 milliseconds. So these were the three core web vitals. Which are very important. For your information. These core web vitals are updated. But these three are very important. And you should know. Now I will show you. What is a lighthouse report? And why do they generate? And how will these three core web vitals get their value from there? So I will tell you here. If you will inspect by right clicking. And you might have it on the right side. So you can click here and bring it down. By clicking here. If you want you can bring it here again. And by clicking here you can bring it down. I prefer it down. Because I am used to seeing it down from the starting. Now you can see the option of lighthouse here. Lighthouse basically generates a report for you. And tells you what can be improved in your HTML page. For example, if I want to see here on mobile. How mobile users are seeing my website. So I will click on mobile. Or I will click on desktop. I will close this tab. I will click on mobile. And I will click on analyze page load here. So this will generate a report for me. Lighthouse. You can see here that a report has been generated. In this performance, accessibility, best practices, SE and PWA. Now you can see here that some things are shown in red. That is, the scope of improvement is in the page. Now you can see here that it is telling you to size your images properly. Your website can be loaded 2.7 seconds fast. So all these suggestions are given to you. By lighthouse. And if you incorporate these suggestions. Then your website will be loaded very well. And will give a good experience to the user. Now you can see here that image elements do not have explicit width and height. So you should give width and height. So you should use the width and height attribute of the image. Which we read in the last video. You should use it. So that your browser has space. When we set width and height in HTML. Then there is space in the browser. Otherwise, if we do not set height and width. Then what will happen. Our browser will not know how much space to reserve. And as long as CSS will load. The whole page will shift from bottom to top. So we don't want our page to shift during loading time. If our page starts shifting. So if we are going to click here. Then we can click here. Suppose an image was going to come here. I am going to click here. And as soon as I clicked. This image was loaded. And all this content shifted down. And instead of clicking here by mistake. I will click on the image. This is called cumulative layout shift. So this kind of shift is not preferred at all. Google does not prefer at all. And this should be minimum. You can see that the space is very less. Cumulative layout shift. So we have to keep the cumulative layout shift minimum. So that our user can get a very good experience. So here we get a lot of suggestions. And this is for our mobile. Now we can generate a desktop report. And the desktop report will be generated. So as you can see. It has generated a report. 92 marks in performance. 100 out of 82 in accessibility. 75 in best practices. Now you see here. The good things that have been told. And the scope of improvement that Lighthouse tells you. So this is a hidden tool. Which we should all use. Now I want to tell you. About meta tags and meta description. So what I will do here. I will make a new file. I will name it index.html. And after making an HTML file. The first SEO element I want to tell you. That is title. If your title is reflecting the content of your page. So this is a very good SEO practice. Whenever your page is changing. You make the title in such a way. That it reflects the content of your page. Because if you want your website on Google. Then it will come according to the title. The index of Google. Like you guys write here. Code with Harry. Okay. And you write like this. So this thing is the title of the page. And this is the title of the page. Which is put by YouTube. This is the title of the page. Which is put by Instagram. This is the title of the page. Which is put by GitHub. So if the title is put on the page. And the title actually. Which reflects the content of your page. Truly. Then your website will rank very well. Now let's say I put content here. And I put an h1. And I write here Harry. And after that let's say. I write a paragraph here. And I write lorem 45 here. Now why did I write lorem 45? I will do view word wrap. Why did I write 45? This is a very good question. I wrote 45 because I am lazy. And 4 and 5 are around. So I doubled 4 and 5. I also write 23. Because they are also around. Okay. So there is no other reason. Now I will preview it quickly. I will open in browser. So see it looks like this. Now this document is written. If I leave it like this. Then this SEO practice will not be good. I will write here about Harry. And I will write here code with Harry. Which is my website. Okay. And what will happen by doing this. That my title will reflect here. As you can see. So what will happen by doing this kind of work. That my website will have more chances to be seen in Google. By inspecting I will also take out its light house report. And I will see what are the scope of improvements. Now its light house report will be very good. Because there is nothing in it that I should improve. But when I will put images etc. Then I will get suggestions. Like put width. Put height. Along with that I will tell you one more trick. So that you can see your website on any mobile. You will know this. So you guys click here. Can you see the computer here? Click on it. And after that if you choose responsive in it. Then you can see. How your website will be seen in any kind of device. So you can see here if your website is responsive or not. By doing this. If you go to see in a specific device. Like in iPhone 12 Pro. Your website will look like this in iPhone 12 Pro resolution. Now don't say why there is no 15 or 16 in it. 12 Pro means big iPhone device. Understand okay. In such a big device. In such a big device. How your website will look. This is simply being told to you guys. Okay. Now you guys can see here. How it will look in Surface Pro 7. By clicking here. How it will look in Google phones. You can also know this. And if you want to take a general view. That my website in responsive device. In any kind of device. Like in iPad. How it will look. Now if you don't have a device here. Then you choose responsive. And take out the approximate width of your device. In total, your website should look good in all the width devices. How this happens. I will tell you later in this course. Now if you click here again. Then it gets closed. This responsive view gets closed. And as soon as it gets closed. Your website looks like this. I will close it. I will come back here. Now I will tell you about Meta text. Here I will write like Meta. Then see here Meta DESC is coming. Okay. I will click on Meta DESC. And here I can give the description of my page. Suppose I give. This is the page. This is a page about. This is a page which contains description. About Harry. Okay. And whatever page content you have here. You write whatever you want. Like I show you. Suppose you write what is SEO. Okay. What is SEO. You have written. And see here. This page has put this Meta description. SEO stands for this. In simple terms. Now it is not necessary that a search engine. Will parse your Meta DESC. It will not do this. If it liked it. It will parse and keep your Meta DESC here. If you have not put Meta DESC. Then it can be generated from your content. Meta DESC. So this is the responsibility of the search engine. What will Bing do? What will Google do? We do not know. But from our side. Our page should be absolutely to the point. Especially if we are writing a blog. And we want. That our page should rank organically. So here you can see. That I have put Meta DESC. Now a Meta keyword used to work a lot before. But now the Meta keyword. It has been deprecated. Meta keyword is not used at all now. The code of Meta keywords looks something like this. But it is believed that. Meta keywords. They do not rank at all in SEO. Because people abuse it more. Suppose you have written a page. About pets. And you have written. What is SEO in Meta keyword. So it is not that. Your page will be ranked. I am here. The double quotes are wrong. I fix them. So if I put Meta keyword here. It is not necessary. The search engine will consider it. Some search engines do this. That do not believe in Meta keywords. They say. We do not want to see your Meta keywords. You do not put. So Meta keywords used to work a lot before. But now it does not work. Now the content of your page is being parsed. And now the time of AI is coming. So especially more. Your content will be understood. What value is your content giving? It will be understood. Accordingly it will be ranked. Now if you want to know exactly. About these Core Web Vitals. For example. If I do it right. And inspect. And go to Lighthouse. And for the desktop. I take out the Lighthouse report. So some Core Web Vitals come. Like LCP comes. Then after that. FCP comes. First Contextual Paint. Now you can see here. Everything is 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 1 100. If you want to learn more about it, you can learn PWA. There is a lot of good content about all these things. But we will focus on making HTML, CSS, JavaScript and websites in this course. This thing should have come to you according to me. Because of which I told you about it. If you have not accessed the Sigma web development series yet, Then do access it. Access the playlist and bookmark it. Or click on the star and click here to save. That's all for this video guys. Thank you so much guys for watching this video. And I will see you next time. Music."
+}

@@ -1,0 +1,901 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 0.0,
+            "end": 24.44,
+            "text": " In the last video, you guys gave me a lot of love.  It's my pleasure to keep this course free.  I deserve a like for this free course.  You know, when I started web development,  there was no comprehensive course of this quality.  Forget free or paid, there was no such course.  So I can understand how important it is for some people to be free of this course.  And trust me, I live up to the expectations.  With that said, like this video  because in this video, we are going to make our first website."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 24.44,
+            "end": 50.120000000000005,
+            "text": " And in this video, I am going to order iPhone 15 Pro Max.  We will see why, how and what will happen in the next video.  For some of you, this will be the first website of your life.  So it's going to be fun.  You guys are excited, right?  Write in the comments, I am excited.  And whatever I am excited will write in the comments,  I will give heart to all those comments.  In this video, we will learn to link an HTML website with CSS and JavaScript.  Along with that, in this video, I am going to give you guys"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 50.120000000000005,
+            "end": 89.4,
+            "text": " notes, cheat sheets and many more resources.  I will tell you guys some techniques that I have learned in years.  And it will literally make your web development speed 10x.  In this video, we will also see how to make our VS Code awesome.  So that your VS Code screen will look killer.  In this video, I will also tell you guys how to earn money from web development.  So let's start with full energy.  Let's roll the intro.  Alright guys, so we have come to our computer screen.  Before moving forward in the video, I would like to tell you all that"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 89.4,
+            "end": 122.44,
+            "text": " do access this playlist.  Secondly, we are very close to 5 million subscribers.  So if you have not yet hit the subscribe button, then do it.  In today's video, we are going to make our first website, as I told you.  The first thing we will do is to customize our VS Code.  So this is the folder in which we started our web development series.  Now I have to give you the source code of this web development series.  So I will configure Git here.  Now it is not at all necessary for you to know about Git.  But I will fire the GitHub desktop here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 122.44,
+            "end": 148.96,
+            "text": " And what I will do here is that I will add a new repository.  I will click on add here.  I will click on create new repository.  I will name it Sigma Web Dev Codes.  And this is our repository.  So I will select this folder.  I will initialize this repository with readme.  And I will write source code for Sigma Web Development Codes here.  I will click on create repository.  By doing this, a repository will be created here, which is called Sigma Web Dev Codes."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 148.96,
+            "end": 171.28,
+            "text": " I will put all the things that were relevant from the first video here.  So these two files were relevant from the first video.  So I will name it video 1.  Right click, new folder.  I will make a video 1 here.  And I will move these two files to the video 1 folder.  I am not pushing this video on Git.  These are sample videos.  You can use your sample videos.  So now whatever the source code will be, I will keep updating it here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 171.28,
+            "end": 196.56,
+            "text": " And I will keep pushing it on Git here.  Now how do we push it on Git here?  You don't need to learn this.  But this procedure is very simple.  Why do we use Git?  I would like to tell you that Git is used by web developers.  Or general coders use it.  When they have to collaborate their code with other people.  So what will happen is that you will work with many programmers.  And those programmers will collaborate with your source code."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 196.56,
+            "end": 223.32,
+            "text": " And to do this kind of collaboration, they will also push some code.  You will also push some code.  Maybe one person is editing a file.  One person is editing another file.  So GitHub comes into use here.  And what is GitHub Desktop?  GitHub Desktop is a utility to use Git.  The difference between Git and GitHub is that Git is open source.  But GitHub is a Microsoft-owned company.  Which helps you to host repositories on your web interface using Git."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 223.32,
+            "end": 251.52,
+            "text": " I will tell you more about Git in the coming videos.  But I am pushing this repository on my GitHub account.  So you will get the repository link in the description.  So as I give you links, you will get all the code if you follow it.  And I will talk about it later.  I am making this video, the course, an impact.  In such a way that absolute beginners can follow it.  So as soon as I click on the published repository,  this code, this folder will sync with my GitHub account.  So all the code that I am going to upload here,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 251.52,
+            "end": 272.32,
+            "text": " it will go to my GitHub account and will keep syncing.  The changes that will be here, will be there.  If someone has made changes there, I can pull it here.  I can pull it by clicking here, by doing fetch origin.  I will teach you all this.  We will dedicate a whole video to Git.  You don't worry at all.  I did this thing so that I can give you code.  Now I will make a folder called video2 here.  And I will go inside this video2 folder."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 272.32,
+            "end": 293.91999999999996,
+            "text": " I will press shift right click and open with VS code.  So here it is open with code.  You will get this option if you have installed VS code  as I told you.  If you have made any changes and you have not checked,  that checkbox which I showed you,  then you may have a problem.  So we will do this no, we will dismiss the notification.  Now whatever file I make here,  like I will make index.html here,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 293.91999999999996,
+            "end": 314.6,
+            "text": " that file will be made here too.  So everyone knows about this now.  And I know there are a lot of intermediate people here  who are saying that we already know all these things.  But I am making this course in such a way  that all beginners can follow along.  So I will make three files here.  One I made here index.html.  The second file I am going to make is style.css.  And the third file I am going to make is script.js."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 314.6,
+            "end": 335.24,
+            "text": " And the name of these files can be anything.  But I just want to keep these files self-explanatory.  So that by looking at their name,  we can know what they are doing.  Index.html is an HTML file.  Script.js is a JavaScript file.  Style.css is a style sheet.  So I made these three files here.  I will go to index.html and put an exclamation mark.  And as soon as I put an exclamation mark,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 335.24,
+            "end": 358.84000000000003,
+            "text": " you see this code has come here.  I will click on view word wrap  so that you can see this code.  The horizontal scroll bar moves away from the word wrap.  I checked the word wrap here.  So now you see here that  we will understand this code.  But for now, you understand that this code is HTML code.  We use it to make a website.  Now come to the extensions tab of VS Code."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 358.84000000000003,
+            "end": 390.32,
+            "text": " Extensions are used to enhance the functionality of VS Code.  We use extensions to make VS Code better.  The extensions of VS Code help us write code.  So which extension will we use?  First of all, I will put some extensions  which will kill our VS Code.  If your friends see it, they will say,  brother, do it.  So what I will do here quickly is VS Code Icons.  There is an extension called VS Code Icons"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 390.32,
+            "end": 410.2,
+            "text": " which I will install as soon as I do it.  You will get to know that whatever file it is,  like you are seeing here, its icon has come.  Earlier this icon was not coming.  If you look at the video behind,  you can see all these icons here.  Thanks for installing VS Code Icons.  I will activate it here.  And here you can see that  our icons are looking good."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 410.2,
+            "end": 424.32000000000005,
+            "text": " In the coming time, if we make a folder,  like if I made a folder,  then this kind of icon will come.  So these icons look good.  We will come back to the extensions tab.  And here are a lot of good themes  that you can use.  There are some themes,  Jellyfish theme,  there is one GitHub theme,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 424.32000000000005,
+            "end": 444.88000000000005,
+            "text": " there are many themes.  You can use these themes.  But I can only put one theme at a time.  This is the default VS Code theme  which shows you the VS Code like this.  Now if I change my theme,  then my VS Code will look different.  I will show you which one I will prefer  when it comes to theme.  First of all, I will show you GitHub theme"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 444.88000000000005,
+            "end": 462.24,
+            "text": " here how it looks.  So GitHub theme is officially  a theme provided by GitHub.  Now see GitHub dark,  GitHub light,  GitHub dimmed,  GitHub colorblind.  I like this one a little better  because the colors in it are...  Sorry, I don't like this one."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 462.24,
+            "end": 478.88,
+            "text": " I will choose GitHub dark here  because the colors here are different.  Another theme that is liked  is Jellyfish.  And here Jellyfish theme  is liked by many people.  If I install it,  then your VS Code will look like this.  You can see Jellyfish.  It will look like this."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 478.88,
+            "end": 495.12,
+            "text": " After this, there is a material theme  which is also very popular.  And if I use material theme here,  material theme  and material theme icons,  we had to install this material theme.  If you have installed material theme icons,  then you can change your icons  to control which extension.  And here we have installed"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 495.12,
+            "end": 514.04,
+            "text": " many extensions.  I will also tell you how to delete extensions.  Here I am showing VS Code material theme icons  like this.  And if you want,  you can use VS Code icons.  If I want the material theme icons  to be removed,  then I will simply remove it.  And all my extensions are visible here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 514.04,
+            "end": 530.8,
+            "text": " Like material theme icon.  And if I want to use these,  then I will select it.  And if I want, I can also uninstall it.  And sometimes when we uninstall anything,  then reload is required.  So I will have to click on reload required.  And when I click on reload required,  then my VS Code will be reloaded.  So you can customize your VS Code"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 530.8,
+            "end": 547.2,
+            "text": " according to your needs.  I will select VS Code icons  here so that  my icons look like this.  I like this a little.  I also like the jellyfish theme a lot.  After this, there is another extension  whose name is Prettier.  I will not install it either.  But I just want to tell you."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 547.2,
+            "end": 561.1600000000001,
+            "text": " There is another extension, ES7.  You will know when we react.  And yes, we will react in this course.  For all those asking.  Okay.  Sorry for the spoilers,  but we are going to react in this course.  So here is ES7 plus React Redux,  React Native Snippets.  This extension gives you"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 561.1600000000001,
+            "end": 578.7600000000001,
+            "text": " React snippets.  We will use it when we react.  We will not install it for now.  But now the most important  extension is called Live Preview.  We will install this extension  called Live Preview.  Because this is a very useful extension.  All the extensions I told you  mostly help you"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 578.7600000000001,
+            "end": 594.1600000000001,
+            "text": " to change the look and feel of VS Code.  But the extension I am telling you today,  Live Preview,  you will actually use it.  Let's come to our HTML, CSS,  and JavaScript files.  So here are our HTML, CSS,  and JavaScript files.  This is an HTML file.  This is some code"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 594.1999999999999,
+            "end": 611.4399999999999,
+            "text": " which tells the website  how to look.  Okay.  So here I am saying  that the title should have a document.  I will write here  Harry's first website.  Harry's course's first website.  The course's first website.  Harry's first website will be a lie."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 611.4399999999999,
+            "end": 623.5600000000001,
+            "text": " Your first website.  You guys are writing your name in this.  Okay.  Whatever your name is.  Key first website.  And if I write inside the body,  Hey, this is my first website.  And everyone write congratulations  in the comment below.  Everyone's first website."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 623.5600000000001,
+            "end": 635.8000000000001,
+            "text": " Everyone write congratulations.  Congratulations for my first website.  Okay.  And congratulate each other.  Make the atmosphere in the comment section.  I also come in the comment section.  Okay.  And I give you all my heart.  Hey, this is my first website.  Okay."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 635.8000000000001,
+            "end": 650.96,
+            "text": " Now,  how should I see this?  The biggest question of people is,  there are two ways to see.  The extension we have installed,  Live Server,  Live Preview, sorry.  Earlier, Live Server also worked very well.  But Microsoft released Live Preview.  So I will recommend this latest extension."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 650.96,
+            "end": 664.5200000000001,
+            "text": " Live Server also works.  But I am not going to run Live Server.  I am going to use Live Preview.  After installing Live Preview,  you see this icon here.  You are seeing above.  If you click on this,  your website will look like this.  Now you say that,  I want to see this website here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 664.5200000000001,
+            "end": 678.0,
+            "text": " In the browser.  Because my website will be seen in the browser.  So if you want to see this in the browser,  click here.  Open in browser.  It will open in the browser.  And should I tell you a fun thing?  Listen to the fun thing too.  You can close it from here.  And you can write here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 678.0,
+            "end": 694.28,
+            "text": " Harry's course is good.  Assume you wrote it.  I am praising my course.  But yes,  what is it,  Harry's course is good.  Okay, I wrote it here.  And you noticed one thing here.  I did not reload this website.  But even after that,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 694.28,
+            "end": 714.8,
+            "text": " it updated this content here.  Which I wrote in this VS Code.  That is, whatever I write here,  will be updated here without reloading.  Will it be done or not?  Clap.  What should be the clap for us?  Okay, it will be done.  And here,  Hey, this is my first website."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 714.8,
+            "end": 731.12,
+            "text": " Harry's course is good.  Now I will write here.  Sigma Harry's course is good.  Sigma Harry's course is good.  Sigma Harry's course is good.  Okay.  So here you saw  how this extension will help us.  Even if you reload it,  it will not make any difference."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 731.12,
+            "end": 745.72,
+            "text": " Because it is being reloaded live.  So there are two things.  Sometimes we want that  our page  is previewed here and there.  I close it.  So that you can see the code wide.  Sometimes we want that  we can see our code here and there.  Because we want to see"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 745.72,
+            "end": 761.48,
+            "text": " its live preview.  So let's say I'm writing anything.  Harry's course is good.  And this is the Sigma course.  And let's say I write something else here.  I can write a lot of things here.  So I will write here and I will keep watching here.  And I can also make it small or big.  Something like this.  So I will see the live update here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 761.48,
+            "end": 772.64,
+            "text": " My old videos,  if you have ever seen,  then I used this extension.  Live server.  Either this extension was not destroyed  or I did not know.  Whatever it is, it is.  Okay.  Now if something new comes,  then it takes time to find out."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 772.64,
+            "end": 786.16,
+            "text": " But this is something that you should use.  Because I use AEC in my daily life.  I do web development.  Okay.  Many people asked  do you also do web development  or just teach?  Oh man, I do it too.  I make websites.  I don't just make videos."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 786.16,
+            "end": 801.0,
+            "text": " I also work by making websites.  And yes, I earn a lot of money  by making websites.  Now all this code that I am writing,  you will get all this on GitHub.  So you will go to the description of the video  anytime, any video.  You will get the code of the corresponding video.  You don't have to worry about that.  Now I will close this"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 801.0,
+            "end": 814.0,
+            "text": " because my preview is visible here.  Now assume HTML, CSS, JavaScript  which we talked about.  About which we talked so much  in the last video.  Now I will tell you  how to link all these three.  Now you will say,  yes, you made index.html.  Very good."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 814.0,
+            "end": 826.24,
+            "text": " The title is also visible here.  See here,  the first website of the Harry's course.  Suppose I name it  Sigma Web Development Course.  So this will change.  Sigma.  Okay.  Now I will make a new website.  It will change."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 826.24,
+            "end": 840.24,
+            "text": " Sigma.  Sigma Web Development.  Course.  Here it is written  Sigma Web Development Course.  And you can see here  that it has been updated.  So it will keep updating.  Live update will be done.  Now I want"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 840.24,
+            "end": 852.24,
+            "text": " my background to be red.  Okay.  This kind of work is done with CSS.  So I can write here  Body  and background color red.  Okay.  This is the syntax of CSS.  I will teach CSS  and I will teach it in such a way"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 852.24,
+            "end": 863.48,
+            "text": " that you will not be able to forget it even if you want to.  Don't worry.  What is written here?  Now understand that this is CSS  which makes the body color red.  Okay.  And here  you see  whether the color of the body will be red or not.  Tell me in the comment section."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 863.48,
+            "end": 874.48,
+            "text": " Now I will tell the beginners  that it will not be red.  Okay.  Why not?  Beginners will think it will be red.  But it will not be.  There is not such a good world.  This HTML file is running now.  It does not know about this CSS file.  Now what is going on in my house?"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 874.48,
+            "end": 886.72,
+            "text": " What does my neighbor know?  Now suppose I made lentils here.  And I expect  suppose my neighbor  has made rice.  And suppose I expect  that I eat it together.  It does not happen.  You can eat it sometimes.  But you understand what I am saying."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 886.72,
+            "end": 896.72,
+            "text": " So we have to link.  You have to link.  You have to go and  tell the neighbor  that brother will eat together.  I am making lentils.  You make rice.  There will be a handshake here.  So how will that handshake happen?  In HTML,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 896.72,
+            "end": 906.72,
+            "text": " you will tell  where is your CSS file?  So there is a link tag.  And the reason  not to use notepad  will also be known here.  As soon as I write a link here.  See here  link colon CSS.  As soon as I select this"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 906.72,
+            "end": 916.96,
+            "text": " see here  it did half of my work.  Wrote REL is equal to style change.  This notepad  will be visible to me.  And this is  I had to type this manually  in the notepad.  This is the syntax of HTML.  I had to write this."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 916.96,
+            "end": 926.96,
+            "text": " But here  automatically  it has come.  Now style.css  is my luck.  Its name is also  style.css.  The file and here also  style.css is given.  If its name was harry.css"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 926.96,
+            "end": 936.96,
+            "text": " then I would have written  harry.css here.  And guess what?  Here my background  has become red.  Now if I want  my text to be white  then I can do  color text white.  I can write"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 936.96,
+            "end": 947.2,
+            "text": " color white.  Now nothing will work here.  I wrote color white.  So see this is white.  The valid CSS syntax  will work here.  And we will talk about this  in the next course.  So this is our CSS.  Now how will"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 947.2,
+            "end": 957.2,
+            "text": " this JavaScript work?  If I write here  alert  and I write here  welcome to  sigma  web development  course  Assume I wrote  welcome to"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 957.2,
+            "end": 967.2,
+            "text": " sigma web development  course  then what will happen?  Will the alert come here?  Why didn't the alert come?  I will tell you  that this syntax  is absolutely correct.  There is no problem  in the syntax."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 967.2,
+            "end": 977.44,
+            "text": " And I will read  JavaScript very well.  So don't take this tension  what I wrote.  Assume this is  JavaScript code  which will flash  welcome to  sigma web development  course"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 977.44,
+            "end": 987.44,
+            "text": " on the screen.  Why didn't it flash?  Is my computer  broken?  No, my computer  is absolutely fine.  I want to tell you  that I have to  include the script.  And let's include the script"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 987.44,
+            "end": 997.44,
+            "text": " just before the body.  Okay.  Now as soon as I  include the script here,  I will write  script.js in src.  How did I write this?  First of all,  I wrote script here.  Okay."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 997.44,
+            "end": 1007.6800000000001,
+            "text": " First of all,  what did I write here?  Script.  Emmet abbreviation.  What is Emmet?  Emmet is a plugin  which is built-in  in VS code.  As you select it,  your auto-complete"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1007.6800000000001,
+            "end": 1017.6800000000001,
+            "text": " will be done.  Now if I am writing  script here  and I am selecting  colon src here,  then it means  that I want to give  a source file here.  If you want,  you can also type it"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1017.6800000000001,
+            "end": 1027.68,
+            "text": " manually.  But the suggestions  that are being given here  make your code writing  powers faster.  They make you  a wonderful developer  and increase  your powers  so that you"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1027.68,
+            "end": 1037.92,
+            "text": " can't get into trouble.  And as soon as  your as a developer  can be self-sufficient,  src is equal to  script.js.  You can see  here.  I have included it.  Now I will come here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1037.92,
+            "end": 1047.92,
+            "text": " So you see  it has come here.  Welcome to  Sigma Web Development Course.  Everyone write  in the comment  that I have become self-sufficient.  Write it  because I know  that your self-sufficiency"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1047.92,
+            "end": 1057.92,
+            "text": " has been satisfied  by seeing this box.  JavaScript also worked.  CSS was working.  JavaScript also worked.  Now your self-sufficiency  has been satisfied.  I will reload it.  It will come again.  I will do OK."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1057.92,
+            "end": 1068.16,
+            "text": " It will stop.  I will tell you  what is JavaScript.  Don't say  that you didn't tell the alert.  Don't start weirdly.  I will finish HTML  and then CSS  and then JavaScript.  So you don't take"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1068.16,
+            "end": 1079.16,
+            "text": " any tension.  And along with this,  the best practices  that I am telling you  like this,  you keep them in mind  because what I am telling you  is coming from my experience.  It is coming from a long time experience  and it will definitely help you."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1079.16,
+            "end": 1089.4,
+            "text": " Like I said  Live Server  you can use it if you want.  Nothing wrong in that.  Use Live Preview  from Microsoft.  OK.  Awesome.  Now I want you all  to write Sigma Batch OP"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1089.4,
+            "end": 1099.4,
+            "text": " in the comment section.  If everyone is enjoying  the course,  then put Sigma Batch OP  in the comment section.  It will be fun to see.  Yes, this is a batch.  What happens if it is a free course?  It is a batch.  So write Sigma Course OP"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1099.4,
+            "end": 1109.4,
+            "text": " with an hashtag.  It will be fun.  Now many people had a comment  in the last video  that how to do this  with the mouse wheel.  So you just have to go  to settings.  You have to write mouse wheel  and here you have to"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1109.4,
+            "end": 1119.64,
+            "text": " check the editor mouse wheel zoom.  Then you press the control  from the mouse wheel.  I have pressed the control here.  As soon as I do this,  I will be able to zoom in.  And then you can  zoom in.  And if I do the  command palette by right clicking"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1119.64,
+            "end": 1129.64,
+            "text": " here,  then I can also  toggle the screencast mode  here.  Whatever I will write here,  you will get to see that.  I have not toggled the screencast  mode in this video  because you already know  what type I am doing."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1129.64,
+            "end": 1139.64,
+            "text": " Okay.  So I can also toggle  the screencast mode  in this way.  That is, I can turn it on  so that you can see  all the things  that I am doing below.  In the last video,  we talked about"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1139.64,
+            "end": 1149.88,
+            "text": " how websites work  and what we did  was very  easy to understand.  Now I will take the example  of iPhone 15 Pro Max.  And I will show you  by ordering  how the client-server  interaction will be"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1149.88,
+            "end": 1159.88,
+            "text": " whenever a user  orders an iPhone.  Okay.  So you will find it  interesting.  I will show you here.  So guys,  how does the website  work here?  I have come to explain"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1159.88,
+            "end": 1169.88,
+            "text": " on apple.com.  Now see,  apple.com is a website.  Okay.  Data must have  come from their server  up to here.  Okay.  Whatever these  HTML files are,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1169.88,
+            "end": 1181.1200000000001,
+            "text": " I will click on  pre-order here quickly.  And after this,  I will simply  when I am recording,  it has not even come.  It is saying that  it will come on September 20.  I will select iPhone 15 Pro Max.  Let's take any color."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1181.1200000000001,
+            "end": 1191.1200000000001,
+            "text": " Let's take black titanium.  What is going on?  Let's take 256 GB.  Let's take no trade-in.  No Apple coverage.  After this,  you see what they did here.  Communication is going on  from their server.  It is going on."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1191.1200000000001,
+            "end": 1201.1200000000001,
+            "text": " It is going on.  So in short,  this is the HTML CSS JavaScript.  You can see  I have sourced  its view page here.  So I can see it  like this here.  And this is our  original website"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1201.1200000000001,
+            "end": 1211.36,
+            "text": " that we were working on.  Now I will check out  here quickly.  I will do continuous guest.  I will show you  a fun thing.  As soon as I click on  inspect and click on network,  you see 2 and 4 communication  is going on"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1211.36,
+            "end": 1221.36,
+            "text": " with Apple's servers.  Which means  that here  as I am doing action here,  JavaScript is communicating  to the server  and there  appropriate action  server is taking  and sending me data."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1221.36,
+            "end": 1231.36,
+            "text": " I will say here  I would like to be delivered.  Continuous shipping address.  I will put the name etc.  It will deliver on October 19.  If shipping comes,  I will tell you.  I will keep the update  for you.  I will keep the update"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1231.36,
+            "end": 1241.6,
+            "text": " for you.  I will keep the update  for you.  Yes, everything is fine.  Terms and conditions  I read it.  I agree.  Place your order.  I agreed.  Place your order."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1241.6,
+            "end": 1251.6,
+            "text": " Like the video  because I also order  iPhones to explain  web development to you.  Here we have OTP.  I will confirm OTP  and my purchase  has been done here.  In total,  this happened"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1251.6,
+            "end": 1261.6,
+            "text": " that I requested  something  from the Apple.com  server.  I said,  give me an iPhone 15 Pro Max.  Apple.com said  take it bro.  So in this way,  the request"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1261.6,
+            "end": 1271.84,
+            "text": " was made.  So this kind of communication  between the server  and the client  happens through JavaScript  without loading the page.  Like you saw,  I selected an iPhone here.  After that,  I clicked"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1271.84,
+            "end": 1281.84,
+            "text": " different things.  So how do all those things  happen?  It happens  with the help  of JavaScript.  How is the styling?  With the help of CSS.  And all this  written"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1281.84,
+            "end": 1291.84,
+            "text": " is HTML.  I hope you will remember  this example.  And if the phone comes,  I will definitely show you.  Otherwise,  many people will say  that it is fake.  I will show you  when this phone comes."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1292.08,
+            "end": 1302.08,
+            "text": " So this way  your websites work.  How to communicate  with the client server.  I hope you understood  from this example.  Tell me in the comment section  if I want to  give away this iPhone.  So what will be"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1302.08,
+            "end": 1312.08,
+            "text": " the best thing?  So that you also  get to know  that I have done a genuine  giveaway.  And I am also able to  do a giveaway.  You tell me in the comment section.  I don't know about all this.  So if you have knowledge"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1312.08,
+            "end": 1322.32,
+            "text": " about this,  then tell me.  Now I want to tell you  where you will get  notes and cheat sheets.  If you go to  codewithadari.com  slash notes,  then you will get  all the cheat sheets."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1322.32,
+            "end": 1332.32,
+            "text": " You can download  the notes here.  Along with that,  you will get  cheat sheets below.  For example,  if I want to  access the HTML cheat sheet,  then I can  access the cheat sheet here."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1332.32,
+            "end": 1342.32,
+            "text": " There are all  the elements here.  But now in this course,  you guys stay,  I will tell you  about all the elements.  Along with that,  if you want to download  my handwritten  notes from HTML,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1342.32,
+            "end": 1352.56,
+            "text": " then you can  download the PDF notes from here.  I have written this handwritten.  You will enjoy reading.  In this course,  I will tell you everything.  But if you download  these notes,  then you will enjoy.  I will make your"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1352.56,
+            "end": 1362.56,
+            "text": " learning experience  so good that  you will also say  that it was fun.  Now I want  all of you to do one thing.  Put the initial review  of this course  in this first video.  I want all of you"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1362.56,
+            "end": 1372.56,
+            "text": " to go in this video  and in this video  and post the initial review  in the comment section.  I want you to  write in the comment section  below  of this first video  that how did you  like this course"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1372.56,
+            "end": 1382.8,
+            "text": " and give me stars  out of 5.  Tell me by rating it  as a star.  We are talking about  the initial review.  I know that the course  is not that good.  But what quality  and all these things"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1382.8,
+            "end": 1392.8,
+            "text": " I want to see  and comment on it  in the first video.  So if you do this work,  I will feel good from my heart.  Go and rate this course  in the first video.  Now we will talk  about how you can  earn money"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1392.8,
+            "end": 1402.8,
+            "text": " after doing this course.  So the first way  to earn money  from web development  is very simple.  You do freelance.  Freelance as a web developer.  You make websites.  There are many websites  that you can make."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1402.8,
+            "end": 1413.04,
+            "text": " And by making them,  you will get  a lot of good money.  Many people  integrate APIs  and by integrating  them, many people  earn good money.  Many people say  that chat gpt has come."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1413.04,
+            "end": 1423.04,
+            "text": " Now chat gpt has come.  Then nothing will happen.  Everything is done by chat gpt.  But this is not true.  Making a website for you  is easier for me  to make chat gpt.  And when you use  chat gpt,  then you become"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1423.04,
+            "end": 1438.04,
+            "text": " a giga chat developer.  So use chat gpt  as much as possible.  And you can save  your time.  In fact,  I tell the truth,  since chat gpt came,  I have been able to  deliver more to my freelancing clients."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1438.28,
+            "end": 1448.28,
+            "text": " All the websites  that I had to make  from the beginning,  I do more than half  of the work with chat gpt.  And the work that  chat gpt is not able to do,  I do it.  Finally, I do the package  and give it."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1448.28,
+            "end": 1458.28,
+            "text": " And I don't have to answer  anyone that what I used  chat gpt,  what I did without chat gpt.  You can deliver  everything very easily.  Use chat gpt.  Chat gpt can't do  everything.  You have to"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1458.28,
+            "end": 1468.52,
+            "text": " use chat gpt  and after that  you have to make  websites and  deliver them to  freelancing clients.  Where will you  meet freelancing clients?  You can go to  Fiverr."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1468.52,
+            "end": 1478.52,
+            "text": " Yes, I know that  it is a little difficult  to get work on Fiverr.  But you can go  to the buyer request.  There is an option  of buyer request in Fiverr.  Search it.  If you go here,  you can match"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1478.52,
+            "end": 1488.52,
+            "text": " with the buyer.  If I show you images,  then here  some buyer requests  come like this.  You can give your pitch  to these people that  I have done this  and I have to do this work.  You will get work."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1488.52,
+            "end": 1498.76,
+            "text": " It will start from here.  As your gig  gets good reviews,  you will earn more money.  Like suppose  you have a gig  on Fiverr.  No one has ever  given you a gig.  You will never get"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1498.76,
+            "end": 1508.76,
+            "text": " work easily.  But if on your gig,  suppose 5-6 people  have ordered  and everyone has  given you 5 stars,  then things become  easy for you from there.  Because the buyers  want the credibility"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1508.76,
+            "end": 1518.76,
+            "text": " of the people  they are getting work  from to be good.  Because they also  need work.  And they are also  giving money.  So they also want  that their money  should not be wasted."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1518.76,
+            "end": 1529.0,
+            "text": " So here Fiverr,  Upwork and many  other freelancing websites  on which you can  try.  But before trying,  you should know  that the people  who are using  the latest technologies,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1529.0,
+            "end": 1539.0,
+            "text": " suppose you want  to integrate  the chat GPT API,  you will get  such work.  No one will tell you  to make a design  and give it to me.  Make a simple  nav bar and give it to me."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1539.0,
+            "end": 1549.0,
+            "text": " I am saying that  most of the clients  do not do this work.  Nowadays everyone  does chat GPT.  You can earn  more money  by making  complex websites.  Then the second thing"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1549.0,
+            "end": 1559.24,
+            "text": " is get a job  as a web developer.  If you get a job  as a web developer,  if you become  a good web developer,  then you will get  a job.  Then you can  sell your services"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1559.24,
+            "end": 1569.24,
+            "text": " by making  an Instagram account.  If you upload  any kind of images  in your Instagram account  and if you  take a little  bit of traction  where you talk  about websites"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1569.24,
+            "end": 1579.24,
+            "text": " and all these things,  then clients  start approaching you.  Many clients  approach me  and tell me  that I want  to make a website.  I am not saying  that you should"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1579.24,
+            "end": 1589.48,
+            "text": " have a lot of  followers.  There are very  few followers  on Fiverr.  You can start  with very few  followers.  After this,  you can give"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1589.48,
+            "end": 1599.48,
+            "text": " one-to-one help to people.  You will get this  from clients' Instagram  or other social media.  At the end of your reel,  you can say that  if you want to learn anything,  then you come to my DM.  I will tell you  what I will tell you"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1599.48,
+            "end": 1609.48,
+            "text": " and you get clients  very easily here.  Trust me if  it helps you.  After this,  you can sell a course  which I was going  to sell this course.  I have uploaded  it for free now,"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1609.48,
+            "end": 1619.72,
+            "text": " but this course  was going to be paid  to you.  The truth is that  if this course was paid,  then definitely  everyone would pay  for this course.  Now it is not necessary  that you have to"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1619.72,
+            "end": 1629.72,
+            "text": " make a course  on web development.  There are a lot of things  in web development.  For example,  how to use the chart GPD API,  make a course on that.  Make a chart GPD course.  If you want to make a website,  then it will be easy"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1629.72,
+            "end": 1639.72,
+            "text": " to sell courses for you.  The course economy  is very huge.  Many people contacted me  to buy this course  that I should launch  this course on their platform  as a paid course.  But I didn't do it  because I wanted"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1639.72,
+            "end": 1649.96,
+            "text": " to give this course  for free.  I had decided  to launch this course  on my platform  and people contacted me  till the last moment  that please don't  put the course for free  but I put it."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1649.96,
+            "end": 1659.96,
+            "text": " So you have to write  Sigma batch op in the  comment section  and you have to  also hit the like button.  Now, in total,  many course sellers  have been affected  by the free upload  of this course"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1659.96,
+            "end": 1669.96,
+            "text": " because when  iPhone 15,  16,  19 Pro Max is available  for free,  then who will ask  Blackberry?  That too paid to Blackberry.  And I am saying this  because the amount"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1669.96,
+            "end": 1680.2,
+            "text": " of hard work I have put  in this course  is going to be  a lot in the  coming videos.  I am aware of the fact  that we are taking  a very slow start  but remember  my words."
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1680.2,
+            "end": 1690.2,
+            "text": " We will raise  the bar like anything.  So access the playlist,  like the video,  give your village land  in my name.  Thank you so much  guys for watching  this video  and I will see"
+        },
+        {
+            "number": "2",
+            "title": "Your First HTML Website",
+            "start": 1690.2,
+            "end": 1691.2,
+            "text": " you next time."
+        }
+    ],
+    "text": " In the last video, you guys gave me a lot of love. It's my pleasure to keep this course free. I deserve a like for this free course. You know, when I started web development, there was no comprehensive course of this quality. Forget free or paid, there was no such course. So I can understand how important it is for some people to be free of this course. And trust me, I live up to the expectations. With that said, like this video because in this video, we are going to make our first website. And in this video, I am going to order iPhone 15 Pro Max. We will see why, how and what will happen in the next video. For some of you, this will be the first website of your life. So it's going to be fun. You guys are excited, right? Write in the comments, I am excited. And whatever I am excited will write in the comments, I will give heart to all those comments. In this video, we will learn to link an HTML website with CSS and JavaScript. Along with that, in this video, I am going to give you guys notes, cheat sheets and many more resources. I will tell you guys some techniques that I have learned in years. And it will literally make your web development speed 10x. In this video, we will also see how to make our VS Code awesome. So that your VS Code screen will look killer. In this video, I will also tell you guys how to earn money from web development. So let's start with full energy. Let's roll the intro. Alright guys, so we have come to our computer screen. Before moving forward in the video, I would like to tell you all that do access this playlist. Secondly, we are very close to 5 million subscribers. So if you have not yet hit the subscribe button, then do it. In today's video, we are going to make our first website, as I told you. The first thing we will do is to customize our VS Code. So this is the folder in which we started our web development series. Now I have to give you the source code of this web development series. So I will configure Git here. Now it is not at all necessary for you to know about Git. But I will fire the GitHub desktop here. And what I will do here is that I will add a new repository. I will click on add here. I will click on create new repository. I will name it Sigma Web Dev Codes. And this is our repository. So I will select this folder. I will initialize this repository with readme. And I will write source code for Sigma Web Development Codes here. I will click on create repository. By doing this, a repository will be created here, which is called Sigma Web Dev Codes. I will put all the things that were relevant from the first video here. So these two files were relevant from the first video. So I will name it video 1. Right click, new folder. I will make a video 1 here. And I will move these two files to the video 1 folder. I am not pushing this video on Git. These are sample videos. You can use your sample videos. So now whatever the source code will be, I will keep updating it here. And I will keep pushing it on Git here. Now how do we push it on Git here? You don't need to learn this. But this procedure is very simple. Why do we use Git? I would like to tell you that Git is used by web developers. Or general coders use it. When they have to collaborate their code with other people. So what will happen is that you will work with many programmers. And those programmers will collaborate with your source code. And to do this kind of collaboration, they will also push some code. You will also push some code. Maybe one person is editing a file. One person is editing another file. So GitHub comes into use here. And what is GitHub Desktop? GitHub Desktop is a utility to use Git. The difference between Git and GitHub is that Git is open source. But GitHub is a Microsoft-owned company. Which helps you to host repositories on your web interface using Git. I will tell you more about Git in the coming videos. But I am pushing this repository on my GitHub account. So you will get the repository link in the description. So as I give you links, you will get all the code if you follow it. And I will talk about it later. I am making this video, the course, an impact. In such a way that absolute beginners can follow it. So as soon as I click on the published repository, this code, this folder will sync with my GitHub account. So all the code that I am going to upload here, it will go to my GitHub account and will keep syncing. The changes that will be here, will be there. If someone has made changes there, I can pull it here. I can pull it by clicking here, by doing fetch origin. I will teach you all this. We will dedicate a whole video to Git. You don't worry at all. I did this thing so that I can give you code. Now I will make a folder called video2 here. And I will go inside this video2 folder. I will press shift right click and open with VS code. So here it is open with code. You will get this option if you have installed VS code as I told you. If you have made any changes and you have not checked, that checkbox which I showed you, then you may have a problem. So we will do this no, we will dismiss the notification. Now whatever file I make here, like I will make index.html here, that file will be made here too. So everyone knows about this now. And I know there are a lot of intermediate people here who are saying that we already know all these things. But I am making this course in such a way that all beginners can follow along. So I will make three files here. One I made here index.html. The second file I am going to make is style.css. And the third file I am going to make is script.js. And the name of these files can be anything. But I just want to keep these files self-explanatory. So that by looking at their name, we can know what they are doing. Index.html is an HTML file. Script.js is a JavaScript file. Style.css is a style sheet. So I made these three files here. I will go to index.html and put an exclamation mark. And as soon as I put an exclamation mark, you see this code has come here. I will click on view word wrap so that you can see this code. The horizontal scroll bar moves away from the word wrap. I checked the word wrap here. So now you see here that we will understand this code. But for now, you understand that this code is HTML code. We use it to make a website. Now come to the extensions tab of VS Code. Extensions are used to enhance the functionality of VS Code. We use extensions to make VS Code better. The extensions of VS Code help us write code. So which extension will we use? First of all, I will put some extensions which will kill our VS Code. If your friends see it, they will say, brother, do it. So what I will do here quickly is VS Code Icons. There is an extension called VS Code Icons which I will install as soon as I do it. You will get to know that whatever file it is, like you are seeing here, its icon has come. Earlier this icon was not coming. If you look at the video behind, you can see all these icons here. Thanks for installing VS Code Icons. I will activate it here. And here you can see that our icons are looking good. In the coming time, if we make a folder, like if I made a folder, then this kind of icon will come. So these icons look good. We will come back to the extensions tab. And here are a lot of good themes that you can use. There are some themes, Jellyfish theme, there is one GitHub theme, there are many themes. You can use these themes. But I can only put one theme at a time. This is the default VS Code theme which shows you the VS Code like this. Now if I change my theme, then my VS Code will look different. I will show you which one I will prefer when it comes to theme. First of all, I will show you GitHub theme here how it looks. So GitHub theme is officially a theme provided by GitHub. Now see GitHub dark, GitHub light, GitHub dimmed, GitHub colorblind. I like this one a little better because the colors in it are... Sorry, I don't like this one. I will choose GitHub dark here because the colors here are different. Another theme that is liked is Jellyfish. And here Jellyfish theme is liked by many people. If I install it, then your VS Code will look like this. You can see Jellyfish. It will look like this. After this, there is a material theme which is also very popular. And if I use material theme here, material theme and material theme icons, we had to install this material theme. If you have installed material theme icons, then you can change your icons to control which extension. And here we have installed many extensions. I will also tell you how to delete extensions. Here I am showing VS Code material theme icons like this. And if you want, you can use VS Code icons. If I want the material theme icons to be removed, then I will simply remove it. And all my extensions are visible here. Like material theme icon. And if I want to use these, then I will select it. And if I want, I can also uninstall it. And sometimes when we uninstall anything, then reload is required. So I will have to click on reload required. And when I click on reload required, then my VS Code will be reloaded. So you can customize your VS Code according to your needs. I will select VS Code icons here so that my icons look like this. I like this a little. I also like the jellyfish theme a lot. After this, there is another extension whose name is Prettier. I will not install it either. But I just want to tell you. There is another extension, ES7. You will know when we react. And yes, we will react in this course. For all those asking. Okay. Sorry for the spoilers, but we are going to react in this course. So here is ES7 plus React Redux, React Native Snippets. This extension gives you React snippets. We will use it when we react. We will not install it for now. But now the most important extension is called Live Preview. We will install this extension called Live Preview. Because this is a very useful extension. All the extensions I told you mostly help you to change the look and feel of VS Code. But the extension I am telling you today, Live Preview, you will actually use it. Let's come to our HTML, CSS, and JavaScript files. So here are our HTML, CSS, and JavaScript files. This is an HTML file. This is some code which tells the website how to look. Okay. So here I am saying that the title should have a document. I will write here Harry's first website. Harry's course's first website. The course's first website. Harry's first website will be a lie. Your first website. You guys are writing your name in this. Okay. Whatever your name is. Key first website. And if I write inside the body, Hey, this is my first website. And everyone write congratulations in the comment below. Everyone's first website. Everyone write congratulations. Congratulations for my first website. Okay. And congratulate each other. Make the atmosphere in the comment section. I also come in the comment section. Okay. And I give you all my heart. Hey, this is my first website. Okay. Now, how should I see this? The biggest question of people is, there are two ways to see. The extension we have installed, Live Server, Live Preview, sorry. Earlier, Live Server also worked very well. But Microsoft released Live Preview. So I will recommend this latest extension. Live Server also works. But I am not going to run Live Server. I am going to use Live Preview. After installing Live Preview, you see this icon here. You are seeing above. If you click on this, your website will look like this. Now you say that, I want to see this website here. In the browser. Because my website will be seen in the browser. So if you want to see this in the browser, click here. Open in browser. It will open in the browser. And should I tell you a fun thing? Listen to the fun thing too. You can close it from here. And you can write here. Harry's course is good. Assume you wrote it. I am praising my course. But yes, what is it, Harry's course is good. Okay, I wrote it here. And you noticed one thing here. I did not reload this website. But even after that, it updated this content here. Which I wrote in this VS Code. That is, whatever I write here, will be updated here without reloading. Will it be done or not? Clap. What should be the clap for us? Okay, it will be done. And here, Hey, this is my first website. Harry's course is good. Now I will write here. Sigma Harry's course is good. Sigma Harry's course is good. Sigma Harry's course is good. Okay. So here you saw how this extension will help us. Even if you reload it, it will not make any difference. Because it is being reloaded live. So there are two things. Sometimes we want that our page is previewed here and there. I close it. So that you can see the code wide. Sometimes we want that we can see our code here and there. Because we want to see its live preview. So let's say I'm writing anything. Harry's course is good. And this is the Sigma course. And let's say I write something else here. I can write a lot of things here. So I will write here and I will keep watching here. And I can also make it small or big. Something like this. So I will see the live update here. My old videos, if you have ever seen, then I used this extension. Live server. Either this extension was not destroyed or I did not know. Whatever it is, it is. Okay. Now if something new comes, then it takes time to find out. But this is something that you should use. Because I use AEC in my daily life. I do web development. Okay. Many people asked do you also do web development or just teach? Oh man, I do it too. I make websites. I don't just make videos. I also work by making websites. And yes, I earn a lot of money by making websites. Now all this code that I am writing, you will get all this on GitHub. So you will go to the description of the video anytime, any video. You will get the code of the corresponding video. You don't have to worry about that. Now I will close this because my preview is visible here. Now assume HTML, CSS, JavaScript which we talked about. About which we talked so much in the last video. Now I will tell you how to link all these three. Now you will say, yes, you made index.html. Very good. The title is also visible here. See here, the first website of the Harry's course. Suppose I name it Sigma Web Development Course. So this will change. Sigma. Okay. Now I will make a new website. It will change. Sigma. Sigma Web Development. Course. Here it is written Sigma Web Development Course. And you can see here that it has been updated. So it will keep updating. Live update will be done. Now I want my background to be red. Okay. This kind of work is done with CSS. So I can write here Body and background color red. Okay. This is the syntax of CSS. I will teach CSS and I will teach it in such a way that you will not be able to forget it even if you want to. Don't worry. What is written here? Now understand that this is CSS which makes the body color red. Okay. And here you see whether the color of the body will be red or not. Tell me in the comment section. Now I will tell the beginners that it will not be red. Okay. Why not? Beginners will think it will be red. But it will not be. There is not such a good world. This HTML file is running now. It does not know about this CSS file. Now what is going on in my house? What does my neighbor know? Now suppose I made lentils here. And I expect suppose my neighbor has made rice. And suppose I expect that I eat it together. It does not happen. You can eat it sometimes. But you understand what I am saying. So we have to link. You have to link. You have to go and tell the neighbor that brother will eat together. I am making lentils. You make rice. There will be a handshake here. So how will that handshake happen? In HTML, you will tell where is your CSS file? So there is a link tag. And the reason not to use notepad will also be known here. As soon as I write a link here. See here link colon CSS. As soon as I select this see here it did half of my work. Wrote REL is equal to style change. This notepad will be visible to me. And this is I had to type this manually in the notepad. This is the syntax of HTML. I had to write this. But here automatically it has come. Now style.css is my luck. Its name is also style.css. The file and here also style.css is given. If its name was harry.css then I would have written harry.css here. And guess what? Here my background has become red. Now if I want my text to be white then I can do color text white. I can write color white. Now nothing will work here. I wrote color white. So see this is white. The valid CSS syntax will work here. And we will talk about this in the next course. So this is our CSS. Now how will this JavaScript work? If I write here alert and I write here welcome to sigma web development course Assume I wrote welcome to sigma web development course then what will happen? Will the alert come here? Why didn't the alert come? I will tell you that this syntax is absolutely correct. There is no problem in the syntax. And I will read JavaScript very well. So don't take this tension what I wrote. Assume this is JavaScript code which will flash welcome to sigma web development course on the screen. Why didn't it flash? Is my computer broken? No, my computer is absolutely fine. I want to tell you that I have to include the script. And let's include the script just before the body. Okay. Now as soon as I include the script here, I will write script.js in src. How did I write this? First of all, I wrote script here. Okay. First of all, what did I write here? Script. Emmet abbreviation. What is Emmet? Emmet is a plugin which is built-in in VS code. As you select it, your auto-complete will be done. Now if I am writing script here and I am selecting colon src here, then it means that I want to give a source file here. If you want, you can also type it manually. But the suggestions that are being given here make your code writing powers faster. They make you a wonderful developer and increase your powers so that you can't get into trouble. And as soon as your as a developer can be self-sufficient, src is equal to script.js. You can see here. I have included it. Now I will come here. So you see it has come here. Welcome to Sigma Web Development Course. Everyone write in the comment that I have become self-sufficient. Write it because I know that your self-sufficiency has been satisfied by seeing this box. JavaScript also worked. CSS was working. JavaScript also worked. Now your self-sufficiency has been satisfied. I will reload it. It will come again. I will do OK. It will stop. I will tell you what is JavaScript. Don't say that you didn't tell the alert. Don't start weirdly. I will finish HTML and then CSS and then JavaScript. So you don't take any tension. And along with this, the best practices that I am telling you like this, you keep them in mind because what I am telling you is coming from my experience. It is coming from a long time experience and it will definitely help you. Like I said Live Server you can use it if you want. Nothing wrong in that. Use Live Preview from Microsoft. OK. Awesome. Now I want you all to write Sigma Batch OP in the comment section. If everyone is enjoying the course, then put Sigma Batch OP in the comment section. It will be fun to see. Yes, this is a batch. What happens if it is a free course? It is a batch. So write Sigma Course OP with an hashtag. It will be fun. Now many people had a comment in the last video that how to do this with the mouse wheel. So you just have to go to settings. You have to write mouse wheel and here you have to check the editor mouse wheel zoom. Then you press the control from the mouse wheel. I have pressed the control here. As soon as I do this, I will be able to zoom in. And then you can zoom in. And if I do the command palette by right clicking here, then I can also toggle the screencast mode here. Whatever I will write here, you will get to see that. I have not toggled the screencast mode in this video because you already know what type I am doing. Okay. So I can also toggle the screencast mode in this way. That is, I can turn it on so that you can see all the things that I am doing below. In the last video, we talked about how websites work and what we did was very easy to understand. Now I will take the example of iPhone 15 Pro Max. And I will show you by ordering how the client-server interaction will be whenever a user orders an iPhone. Okay. So you will find it interesting. I will show you here. So guys, how does the website work here? I have come to explain on apple.com. Now see, apple.com is a website. Okay. Data must have come from their server up to here. Okay. Whatever these HTML files are, I will click on pre-order here quickly. And after this, I will simply when I am recording, it has not even come. It is saying that it will come on September 20. I will select iPhone 15 Pro Max. Let's take any color. Let's take black titanium. What is going on? Let's take 256 GB. Let's take no trade-in. No Apple coverage. After this, you see what they did here. Communication is going on from their server. It is going on. It is going on. So in short, this is the HTML CSS JavaScript. You can see I have sourced its view page here. So I can see it like this here. And this is our original website that we were working on. Now I will check out here quickly. I will do continuous guest. I will show you a fun thing. As soon as I click on inspect and click on network, you see 2 and 4 communication is going on with Apple's servers. Which means that here as I am doing action here, JavaScript is communicating to the server and there appropriate action server is taking and sending me data. I will say here I would like to be delivered. Continuous shipping address. I will put the name etc. It will deliver on October 19. If shipping comes, I will tell you. I will keep the update for you. I will keep the update for you. I will keep the update for you. Yes, everything is fine. Terms and conditions I read it. I agree. Place your order. I agreed. Place your order. Like the video because I also order iPhones to explain web development to you. Here we have OTP. I will confirm OTP and my purchase has been done here. In total, this happened that I requested something from the Apple.com server. I said, give me an iPhone 15 Pro Max. Apple.com said take it bro. So in this way, the request was made. So this kind of communication between the server and the client happens through JavaScript without loading the page. Like you saw, I selected an iPhone here. After that, I clicked different things. So how do all those things happen? It happens with the help of JavaScript. How is the styling? With the help of CSS. And all this written is HTML. I hope you will remember this example. And if the phone comes, I will definitely show you. Otherwise, many people will say that it is fake. I will show you when this phone comes. So this way your websites work. How to communicate with the client server. I hope you understood from this example. Tell me in the comment section if I want to give away this iPhone. So what will be the best thing? So that you also get to know that I have done a genuine giveaway. And I am also able to do a giveaway. You tell me in the comment section. I don't know about all this. So if you have knowledge about this, then tell me. Now I want to tell you where you will get notes and cheat sheets. If you go to codewithadari.com slash notes, then you will get all the cheat sheets. You can download the notes here. Along with that, you will get cheat sheets below. For example, if I want to access the HTML cheat sheet, then I can access the cheat sheet here. There are all the elements here. But now in this course, you guys stay, I will tell you about all the elements. Along with that, if you want to download my handwritten notes from HTML, then you can download the PDF notes from here. I have written this handwritten. You will enjoy reading. In this course, I will tell you everything. But if you download these notes, then you will enjoy. I will make your learning experience so good that you will also say that it was fun. Now I want all of you to do one thing. Put the initial review of this course in this first video. I want all of you to go in this video and in this video and post the initial review in the comment section. I want you to write in the comment section below of this first video that how did you like this course and give me stars out of 5. Tell me by rating it as a star. We are talking about the initial review. I know that the course is not that good. But what quality and all these things I want to see and comment on it in the first video. So if you do this work, I will feel good from my heart. Go and rate this course in the first video. Now we will talk about how you can earn money after doing this course. So the first way to earn money from web development is very simple. You do freelance. Freelance as a web developer. You make websites. There are many websites that you can make. And by making them, you will get a lot of good money. Many people integrate APIs and by integrating them, many people earn good money. Many people say that chat gpt has come. Now chat gpt has come. Then nothing will happen. Everything is done by chat gpt. But this is not true. Making a website for you is easier for me to make chat gpt. And when you use chat gpt, then you become a giga chat developer. So use chat gpt as much as possible. And you can save your time. In fact, I tell the truth, since chat gpt came, I have been able to deliver more to my freelancing clients. All the websites that I had to make from the beginning, I do more than half of the work with chat gpt. And the work that chat gpt is not able to do, I do it. Finally, I do the package and give it. And I don't have to answer anyone that what I used chat gpt, what I did without chat gpt. You can deliver everything very easily. Use chat gpt. Chat gpt can't do everything. You have to use chat gpt and after that you have to make websites and deliver them to freelancing clients. Where will you meet freelancing clients? You can go to Fiverr. Yes, I know that it is a little difficult to get work on Fiverr. But you can go to the buyer request. There is an option of buyer request in Fiverr. Search it. If you go here, you can match with the buyer. If I show you images, then here some buyer requests come like this. You can give your pitch to these people that I have done this and I have to do this work. You will get work. It will start from here. As your gig gets good reviews, you will earn more money. Like suppose you have a gig on Fiverr. No one has ever given you a gig. You will never get work easily. But if on your gig, suppose 5-6 people have ordered and everyone has given you 5 stars, then things become easy for you from there. Because the buyers want the credibility of the people they are getting work from to be good. Because they also need work. And they are also giving money. So they also want that their money should not be wasted. So here Fiverr, Upwork and many other freelancing websites on which you can try. But before trying, you should know that the people who are using the latest technologies, suppose you want to integrate the chat GPT API, you will get such work. No one will tell you to make a design and give it to me. Make a simple nav bar and give it to me. I am saying that most of the clients do not do this work. Nowadays everyone does chat GPT. You can earn more money by making complex websites. Then the second thing is get a job as a web developer. If you get a job as a web developer, if you become a good web developer, then you will get a job. Then you can sell your services by making an Instagram account. If you upload any kind of images in your Instagram account and if you take a little bit of traction where you talk about websites and all these things, then clients start approaching you. Many clients approach me and tell me that I want to make a website. I am not saying that you should have a lot of followers. There are very few followers on Fiverr. You can start with very few followers. After this, you can give one-to-one help to people. You will get this from clients' Instagram or other social media. At the end of your reel, you can say that if you want to learn anything, then you come to my DM. I will tell you what I will tell you and you get clients very easily here. Trust me if it helps you. After this, you can sell a course which I was going to sell this course. I have uploaded it for free now, but this course was going to be paid to you. The truth is that if this course was paid, then definitely everyone would pay for this course. Now it is not necessary that you have to make a course on web development. There are a lot of things in web development. For example, how to use the chart GPD API, make a course on that. Make a chart GPD course. If you want to make a website, then it will be easy to sell courses for you. The course economy is very huge. Many people contacted me to buy this course that I should launch this course on their platform as a paid course. But I didn't do it because I wanted to give this course for free. I had decided to launch this course on my platform and people contacted me till the last moment that please don't put the course for free but I put it. So you have to write Sigma batch op in the comment section and you have to also hit the like button. Now, in total, many course sellers have been affected by the free upload of this course because when iPhone 15, 16, 19 Pro Max is available for free, then who will ask Blackberry? That too paid to Blackberry. And I am saying this because the amount of hard work I have put in this course is going to be a lot in the coming videos. I am aware of the fact that we are taking a very slow start but remember my words. We will raise the bar like anything. So access the playlist, like the video, give your village land in my name. Thank you so much guys for watching this video and I will see you next time."
+}
