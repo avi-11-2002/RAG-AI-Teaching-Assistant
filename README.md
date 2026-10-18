@@ -2,7 +2,7 @@
 
 ## 🎥 Project Demo
 
-https://github.com/avi-11-2002/RAG-AI-Teaching-Assistant/blob/main/assets/RAG_demo.mp4
+[https://github.com/avi-11-2002/RAG-AI-Teaching-Assistant/blob/main/assets/RAG_demo.mp4](https://github.com/user-attachments/assets/14a82401-702b-43d3-b616-3fd608b5a7b2)
 
 ## 📸 Screenshots
 
@@ -45,22 +45,25 @@ The project processes audio, converts content into text chunks, generates embedd
 ```text
 RAG-AI-Teaching-Assistant/
 ├── assets/
-│   ├── RAG_demo.mp4
 │   ├── Question_ask.png
 │   ├── Output_1.png
-│   └── Outpur_2.png
+│   ├── Outpur_2.png
+│   └── RAG_demo.mp4
 ├── Audios/
 ├── jsons/
+├── newjsons/
 ├── audios_to_json.py
 ├── videos_to_audios.py
 ├── preprocess_json.py
 ├── merge_chunks.py
 ├── process_incoming.py
-├── requirements.txt
+├── prompt.txt
+├── response.txt
+├── requirement.txt
+├── embeddings.joblib
+├── .gitignore
 └── README.md
 ```
-
-*Note: This is an illustrative structure. The actual files may differ.*
 
 ## ⚙️ Installation and Setup
 
