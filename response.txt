@@ -1,0 +1,9 @@
+What's up guys, let's talk about forms in HTML. 
+
+In video 7, we will know what forms and what is the input tag in the form. So, go to video 7 and watch from 0.0 seconds. 
+
+Forms are very important elements of some websites. They are used to submit data from the client to the server. You can see forms on contact pages, Google forms, or inquiry forms. They are also used to submit details like date and time for flights or railway tickets.
+
+If you want to learn about forms, go to video 7. 
+
+Note: The user asked a question related to the course, so I provided a helpful response.
