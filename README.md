@@ -59,7 +59,7 @@ RAG-AI-Teaching-Assistant/
 ├── process_incoming.py
 ├── prompt.txt
 ├── response.txt
-├── requirement.txt
+├── requirements.txt
 ├── embeddings.joblib
 ├── .gitignore
 └── README.md
