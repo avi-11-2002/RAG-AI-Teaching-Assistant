@@ -1,8 +1,7 @@
 Videos/
-
 venv/
-
 __pycache__/
 *.pyc
-
+chroma_db/
+embeddings.joblib
 .env

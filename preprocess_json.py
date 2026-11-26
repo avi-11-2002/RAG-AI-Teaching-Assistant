@@ -1,9 +1,14 @@
 import os
 import json
-import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
-import joblib
+import chromadb
 from ollama import embed
+
+chroma_client = chromadb.PersistentClient(
+    path="./chroma_db"
+)
+collection = chroma_client.get_or_create_collection(
+    name="my_collection"
+)
 
 def create_embedding(text_list):
     batch_size = 32
@@ -18,7 +23,7 @@ def create_embedding(text_list):
     return all_embeddings
 
 jsons = sorted(os.listdir("newjsons"))
-my_dicts = []
+
 chunk_id = 0
 
 for json_file in jsons:
@@ -28,11 +33,19 @@ for json_file in jsons:
     embeddings = create_embedding([c["text"] for c in content["chunks"]])
 
     for i, chunk in enumerate(content["chunks"]):
-        chunk["chunk_id"] = chunk_id
-        chunk["embedding"] = embeddings[i]
         chunk_id += 1
-        my_dicts.append(chunk)
-        
-df = pd.DataFrame.from_records(my_dicts)
-joblib.dump(df, "embeddings.joblib")
+        collection.upsert(
+            ids=[str(chunk_id)],
+            embeddings = [embeddings[i]],
+            documents = [chunk["text"]],
+            metadatas = [{
+                "title" : chunk["title"],
+                "number" : chunk["number"],
+                "start" : chunk["start"],
+                "end" : chunk["end"]
+            }]
+        )
+       
+print("All embeddings successfully stored in ChromaDB")
+print("Total chunks : ", collection.count())
 
