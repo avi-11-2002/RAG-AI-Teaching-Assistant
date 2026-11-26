@@ -2,8 +2,7 @@
 
 ## 🎥 Project Demo
 
-[https://github.com/avi-11-2002/RAG-AI-Teaching-Assistant/blob/main/assets/RAG_demo.mp4]Attach files by dragging & dropping, selecting or pasting them.
-(https://github.com/user-attachments/assets/14a82401-702b-43d3-b616-3fd608b5a7b2)
+https://github.com/avi-11-2002/RAG-AI-Teaching-Assistant/blob/main/assets/RAG_demo.mp4
 
 ## 📸 Screenshots
 
