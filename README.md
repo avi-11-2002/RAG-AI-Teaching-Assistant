@@ -2,7 +2,7 @@
 
 ## 🎥 Project Demo
 
-https://github.com
+[https://github.com](https://github.com/user-attachments/assets/2e7f16a5-b5c9-4330-a79e-b6a67f1ea511)
 
 ## 📸 Screenshots
 
