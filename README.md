@@ -2,7 +2,7 @@
 
 ## 🎥 Project Demo
 
-[https://github.com/avi-11-2002/RAG-AI-Teaching-Assistant/blob/main/assets/RAG_demo.mp4](https://github.com)
+https://github.com
 
 ## 📸 Screenshots
 
